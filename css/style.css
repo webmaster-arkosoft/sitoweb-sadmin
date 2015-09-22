@@ -61,6 +61,7 @@ body{
 	width: 260px; 
 	height: 77px; 
 	background: url('../immagini/download.jpg') no-repeat;
+	margin-bottom:20px;
 }
 .download a{
 	text-decoration: none;
@@ -130,11 +131,12 @@ a.download:hover{
 	float:left;
 }
 .splash{
-	background: #000 url('../immagini/sfondosplash.jpg') repeat-x;
+	background: #000 url('../immagini/provasfondo-splash.jpg') no-repeat center left;
 	width: 100%; 
 	/*border: 1px solid #ff0000; */
 	text-align: center;
-	height: 320px;
+	height: auto;
+	float:left;
 }
 .testo{
 	/*border: 1px solid #ff0000; */
@@ -217,12 +219,6 @@ a.download:hover{
 	font-family: 'Open Sans';
 	margin-top: -10px;
 	margin-bottom: 40px;
-}
-.mobile{
-	/*border: 1px solid #ff0000; */
-	width: 423px; 
-	height: 318px; 
-	float: left;
 }
 .contenuto{
 	width: 991px; 
@@ -317,6 +313,7 @@ a.download:hover{
 	/*border: 1px solid #CCC;*/ 
 	width: 100%; 
 	height: 205px;
+	float:left;
 }
 .copyright{
 	width: 991px; 
@@ -364,6 +361,7 @@ a.download:hover{
 .boxmadre{
 	width: 100%;
 	height: 515px;
+	float:left;
 	background-color: #FFFFFF;
 }
 .box{

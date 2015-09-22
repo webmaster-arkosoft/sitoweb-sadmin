@@ -18,7 +18,7 @@
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="#0"><img src="immagini/textlogo.jpg" alt="Homepage"></a>
+					<a id="cd-logo" href="#0"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottoneattivo"><a href="http://www.softwarearredamento.com" class="bottoneattivo"><div>Home</div></a></div>
@@ -31,12 +31,12 @@
 				<div class="logo">&nbsp;</div>
 				<div class="generale-corente">
 					<div class="pag-corente">
-						<span>TESTO</span>
-						<a id="cd-menu-trigger" href="#0">
-							<span class="cd-menu-icon"></span>
-						</a>
+						<span>Home</span>
 					</div>
 				</div>
+				<a id="cd-menu-trigger" href="#0">
+					<span class="cd-menu-icon"></span>
+				</a>
 			</div>
 			<div class="cd-main-content">
 				<div class="splash">
@@ -47,9 +47,6 @@
 							<p class="introduzione">Una finestra su internet per i tuoi prodotti.</p>
 							<div class="download"><a href="http://www.softwarearredamento.com/intermedia.php" onClick="javascript:_paq.push(['trackGoal','1']);" class="download">&nbsp;</a></div>
 						</div>	
-					</div>	
-					<div class="mobile">
-						<img src="immagini/logo.jpg">
 					</div>
 				</div>
 				<div class="boxmadre">
