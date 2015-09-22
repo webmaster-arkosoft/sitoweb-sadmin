@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(.*)\.html$ $1.php [L]
+ 
+
+ErrorDocument 404 http://www.softwarearredamento.com/error404.html

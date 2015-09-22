@@ -1,0 +1,597 @@
+
+/*CARRELLO*/
+.carrello{
+	min-width: 820px;
+	max-width: 991px;
+	margin-top: 15px;
+}
+.couponscaduton{
+	min-width: 800px;
+	max-width: 971px;
+	height: 20px;
+	background-color: #FFD7D7;
+	color: #FF0000;
+	font-weight: bold;
+	padding: 10px;
+}
+.couponscadutoff{
+	display: none;
+}
+.titoli{
+	min-width: 820px;
+	max-width: 991px;
+	height: 37px;
+}
+.nomesoftware{
+	min-width: 180px;
+	max-width: 238px;
+	height: 37px; 
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.nomesoftware div{
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	margin-top: 10px;
+}	
+.cancellalicenza{
+	min-width: 15px;
+	max-width: 28px;
+	height: 37px;
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.consegna{
+	min-width: 130px;
+	max-width: 140px;
+	height: 37px; 
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.consegna div{
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	margin-top: 10px;
+}
+.quantita{
+	min-width: 135px;
+	max-width: 150px;
+	height: 37px; 
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.quantita div{
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	margin-top: 10px;
+}
+.durata{
+	min-width: 125px;
+	max-width: 140px;
+	height: 37px; 
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.durata div{
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	margin-top: 10px;
+}	
+.prezzounitario{
+	min-width: 110px;
+	max-width: 140px;
+	height: 37px; 
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
+	float: left;
+	text-align: center;
+}
+.prezzounitario div{
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	margin-top: 10px;
+}
+.descrizione{
+	min-width: 820px;
+	max-width: 991px;
+	height: auto;
+	float: left;
+}
+.dnomesoftware{
+	min-width: 180px;
+	max-width: 238px;
+	height: 80px; 
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding-top: 10px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+.imgdnomesoftware{
+	height: 80px;
+	width: 50px;
+	float: left;
+}
+.titolodnomesoftware{
+	width: 180px;
+	height: 25px;
+	color: #000000;
+	margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.dconsegna{
+	min-width: 130px;
+	max-width: 140px;
+	height: 80px; 
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.dconsegna div{
+	float: left;
+	width: 130px;
+	height: 60px;
+}
+.dconsegna img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.dquantita{
+	min-width: 135px;
+	max-width: 150px;
+	height: 67px; 
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding-top: 23px;
+	text-align: center;
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	background-color: #FFFFFF;
+}
+.ddurata{
+	min-width: 125px;
+	max-width: 140px;
+	height: 80px; 
+	padding-top: 10px;
+	border: 1px solid #CCCCCC;
+	float: left;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.ddurata div{
+	margin-top: 15px;
+	color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+	min-width: 125px;
+	max-width: 130px;
+	height: 45px;
+	float: left;
+}
+.dprezzounitario{
+	min-width: 110px;
+	max-width: 140px;
+	height: 90px; 
+	border: 1px solid #CCCCCC;
+	float: left;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.prezzonormale{
+	margin-top: 25px;
+	color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+	min-width: 110px;
+	max-width: 130px;
+	height: 45px;
+	float: left;
+}
+.prezzoscontato{
+	margin-top: 5px;
+	color: #666666;
+	text-decoration: line-through;
+}
+.prezzooff{
+	display: none;
+	height: 5px;
+}
+.prezzooff1{
+	color: #FF0000;
+    font-size: 18px;
+	font-weight: bold;
+	min-width: 110px;
+	max-width: 130px;
+	height: 30px;
+}
+.dcancellalicenza{
+	min-width: 15px;
+	max-width: 28px;
+	height: 75px; 
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding-top: 15px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.dcancellalicenza div{
+	float: left;
+	width: 11px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 1px;
+}
+.qntinput{
+	height: 47px;
+	width: 120px;	
+	float: left;
+	text-align: center;
+}
+.qntinput input{
+	width: 105px;
+	margin-left: 10px;
+}
+.cambiaqnt{
+	width: 12px;
+	float: left;
+	height: 23px;
+}
+.divspese{
+	min-width: 820px;
+	max-width: 991px;
+	height: 156px;
+	float: left;
+}
+.footercarrello{
+	width: 807px;
+	height: 40px;
+	border: 1px solid #CCCCCC;
+	background:#fff url("../immagini/footercarrello.jpg") repeat-x;
+	padding-left: 10px;
+	float: left;
+}
+.footercarrello div{
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #F00;
+	margin-top: 5px;
+	margin-right: 10px;
+	float: right;
+}
+.divimponibile{
+	min-width: 650px;
+	max-width: 808px;
+	height: 50px;
+	padding-left: 8px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.divimponibile div{
+	margin-top: 15px;
+	font-size: 18px;
+	font-family:'Open Sans';
+	font-weight: bold;
+	color: #000000;
+	float: right;
+	margin-right: 15px;
+}
+.spesesped{
+	min-width: 650px;
+	max-width: 808px;
+	height: 50px;
+	padding-left: 8px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.spesesped div{
+	margin-top: 15px;
+	font-size: 17px;
+	font-family:'Open Sans';
+	font-weight: bold;
+	color: #000000;
+	float: right;
+	margin-right: 15px;
+}
+.spesesped1{
+	width: 140px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.spesesped1 div{
+	margin-top: 15px;
+	margin-left: 38px;
+}
+.divimponibile1{
+	width: 140px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.divimponibile1 div{
+	margin-top: 15px;
+	margin-left: 38px;
+}
+.divimponibile2{
+	min-width: 15px;
+	max-width: 28px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+.desciva{
+	width: 820px;
+	height: 50px;
+	float: left;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.desciva div{
+	width: 100px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 660px;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+.diviva{
+	width: 980px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.iva{
+	width: 150px;
+	height: 50px;
+	float: left;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.iva div{
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+.bottonetorna a{
+	text-decoration: none;
+	font-size: 0px;
+}
+.bottonetorna{
+	width: 188px;
+	height: 36px;
+	float: left;
+	font-size: 0px;
+	border: 0px;
+	background:url("../immagini/bottone-torna-ai-prodotti.jpg") no-repeat center top;
+}
+.bottonetorna:hover{
+	background-position: 0 -37px;
+}
+.bottoneconferma a{
+	text-decoration: none;
+	font-size: 0px;
+}
+.bottoneconferma{
+	width: 119px;
+	height: 36px;
+	float: right;
+	font-size: 0px;
+	border: 0px;
+	cursor: pointer;
+	background:url("../immagini/bottone-conferma.jpg") no-repeat center top;
+}
+.bottoneconferma:hover{
+	background-position: 0 -37px;
+}
+.bottoni{
+	margin-top: 10px;
+	min-width: 820px;
+	max-width: 980px;
+	height: 50px;
+	text-align: right;
+	float: left;
+}
+.spazio{
+	min-width: 495px;
+	max-width: 663px;
+	float: left;
+}
+.bottoni span{
+	float: left;
+	width: 10px;
+}
+.bottoni a{
+	text-decoration: none;
+	font-size: 0px;
+}
+.nessunprodotto{
+	min-width: 807px;
+	max-width: 978px;
+	height: 70px;
+	float: left;
+	background-color: #FFD7D7;
+	border: 1px solid #CCCCCC;
+	padding-left: 10px;
+}
+.nessunprodotto div{
+	margin-top: 25px;
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.bottonecambio{
+	background:url("../immagini/piu.jpg") no-repeat;
+	width: 11px;
+	height: 11px;
+	border: 0px;
+	font-size: 0px;
+	cursor: pointer;
+}
+.bottonecambio1{
+	background:url("../immagini/meno.jpg") no-repeat;
+	width: 11px;
+	height: 11px;
+	border: 0px;
+	font-size: 0px;
+	cursor: pointer;
+}
+.bottoneelimina{
+	background:url("../immagini/cancella.jpg") no-repeat;
+	width: 13px;
+	height: 15px;
+	border: 0px;
+	font-size: 0px;
+	cursor: pointer;
+}
+.barra-navigazione{
+	min-width: 820px;
+	max-width: 988px;
+	height: 50px;
+	border: 0px;
+	background:url("../immagini/barra-navigazione.jpg") no-repeat center top;
+}
+.barra{
+	min-width: 220px;
+	max-width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+}
+.barra a{
+	text-decoration: none;
+}
+.barra1{
+	min-width: 300px;
+	max-width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+}
+.barra1 a{
+	text-decoration: none;
+	color: #000000;
+}
+.barra1 a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+/*FINE CARRELLO*/
+
+/*ID COUPON*/
+.coupon{
+	min-width: 820px;
+	max-width: 990px;
+	height: 30px;
+}
+.testocoupon{
+	min-width: 508px;
+	max-width: 510px;
+	max-height: 40px;
+	float: left;
+	border: 1px solid #CCC;
+	padding-right: 10px;
+	background-color: #FFF;
+	min-height: 40px;
+}
+.promozionecoupon{
+	margin-top: 11px;
+	float: left;
+}
+.testocoupon img{
+	margin-top: 13px;
+	margin-right: 5px;
+	margin-left: 10px;
+	float: left;
+}
+.promlabelcoupon{
+	color: #FF0000;
+	font-weight: bold;
+}
+.labelcoupon{
+	font-size: 12px;
+}
+.inputcoupon{
+	min-width: 280px;
+	max-width: 100%;
+	min-height: 32px;
+	max-height: 53px;
+	float: left;
+	padding-top: 8px;
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.inputcoupon input{
+	width: 266px;
+	font-size: 16px;
+	margin-left: 10px;
+	color: #999999;
+	background-color: #FEFEFE;
+	border: 1px solid #999999;
+}
+.successoff{
+	min-width: 17px;
+	max-width: 32px;
+	min-height: 32px;
+	max-height: 53px;
+	padding-top: 8px;
+	float: left;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.successon{
+	width: 32px;
+	height: 32px;
+	padding-top: 8px;
+	float: left;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFFFFF url('/carrello/immagini/success.jpg') center center  no-repeat;
+}
+.erroron{
+	width: 32px;
+	height: 32px;
+	padding-top: 8px;
+	float: left;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background: #FFFFFF url('/carrello/immagini/error.jpg') center center  no-repeat;
+}
+
+/*FINE ID COUPON*/

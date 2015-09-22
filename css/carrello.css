@@ -1,0 +1,78 @@
+.desccarrello{
+	width: 991px;
+	height: 65px;
+	margin-top: 30px;
+	text-align: center;
+}
+.desccarrello h1{
+	display: inline;
+	font-size: 20px;
+	font-family: 'Open Sans';
+}
+.boxacquista{width: 990px; margin: -20px auto; font-weight: bold; font-size: 16px; text-align: right; font-family: 'Open Sans'; }
+.titoloacquista1{font-size:30px;font-weight:bold;height:50px; text-align: center; width: 980px;}
+.modalita{width:675px;height:55px;}
+.campoobbligatorio2{font-size:14px;color:#FF0000;margin-top:35px;margin-bottom:20px;}
+.campoacquista{width:150px;height:40px;float:left;}
+.campoacquista div{padding-top:10px;font-size:16px;font-family:'Open Sans';font-weight:bold;}
+.inputacquista{width:530px;height:40px;vertical-align:bottom;}
+.inputacquista input{width:300px;height:30px;font-size:18px;background:#fff url("../immagini/campodownload.jpg") repeat-x;border:1px solid #000;padding-top:-10px;}
+.checkboxacquista{width:530px;height:40px;vertical-align:bottom;}
+.textareaacquista textarea{background:#C5D3FA;border:1px solid #000;resize: none;}
+.textareaacquista{width:540px;height:140px;}
+.bottonescarica1{text-align:right;width:532px;}
+.messaggio1{font-size: 16px;padding-top: 50px;}
+.corretto{width: 850px;height: 35px;margin-left: 50px;margin-bottom: 20px;padding-left: 20px;padding-top: 10px;font-weight: bold;background-color: #CAFFCA;}
+.esatto{width: 850px;height: 35px;margin-left: 50px;margin-bottom: 20px;padding-left: 20px;padding-top: 10px;font-weight: bold;background-color: #CAFFCA;}
+.errato{width: 850px;margin-left: 50px;margin-bottom: 20px;padding-left: 20px;padding-top: 10px;font-weight: bold;background-color: #FFAAAA;height: auto !important; min-height: 100%; height: 100%;}
+.divboxlicenze{width: 980px;height: 400px;margin-top: 10px;}
+.boxspazio{width: 160px;height: 375px;float: left;}
+.boxlicenza{width: 355px;height: 375px;border: 1px solid #CCCCCC;float: left;margin-left: 10px;background-color: #FFFFFF;}
+.boxlicenza:hover{border: 1px dashed #999999;}
+.titololicenza{width: 350px;height: 50px;margin-top: 10px;margin-left: 10px;font-size: 18px;font-weight: bold;font-family:'Open Sans';}
+.titololicenza span{	color: #FF0000;}
+.descrizionelicenza{width: 350px;height: 195px;margin-left: 10px;}
+.desc{float: left;width: 155px;font-size: 12px;font-family:'Open Sans';}
+.descrizionelicenza img{float: left;margin-left: 10px;}
+.prezzosoftware{width: 350px;height: 50px;margin-top: 10px;margin-left: 10px;font-size: 18px;font-weight: bold;font-family:'Open Sans';}
+.prezzosoftware span{color: #FF0000;}
+.bottonesoftware{width: 200px;height: 50px;margin-left: 150px;}
+.ripcarrello{width: 963px; text-align: left; height: 30px;border: 1px solid #CCCCCC;background-color: #FFFFFF;padding-left: 10px;padding-top: 10px;margin-top: 10px;}
+.ripcarrello a{color: #000000;font-weight: bold;}
+
+.boxprodotto{width: 983px;height: 170px;border-bottom: 1px solid #CCCCCC;float: left;padding-top: 10px;background-color: #FFFFFF;}
+.boxprodotto1{width: 983px;height: 185px;border-bottom: 1px solid #CCCCCC;float: left;padding-top: 10px;background-color: #FFFFFF;}
+.boxdescrizione{width: 990px;height: 170px;}
+.imgprodotto{width: 200px; height: 170px; float:left; text-align: center;}
+.descprodotto{width: 600px; height: 170px; float:left; text-align: justify;}
+.descprodotto p{padding-right: 10px; margin: 0px; font-weight: normal;}
+.titoloprod{width: 595px;height: 45px;margin-top: 10px;font-size: 18px;font-weight: bold;font-family:'Open Sans';}
+.titoloprod span{color: #FF0000;}
+.aggiungiprodotto{width: 190px; height: 170px; float:left;}
+.prezzoprod{width: 190px; height: 33px; color:#FF0000; text-align: center; font-size: 30px; font-weight: bold;}
+.ivaprod{width: 190px; height: 30px; color:#FF0000; text-align: center; font-size: 12px;}
+.disponibilitaprod{width: 190px; height: 40px; color:#006600;text-align: center; font-size: 14px;}
+
+.bottoneaggcarrello{
+	height: auto;
+    text-align: left;
+    width: 100%;
+	max-width: 1024px;
+}
+.bottoneaggcarrello button{
+	font-size: 10px;
+	padding: 1em 1em;
+	cursor: pointer;
+	border: 0em;
+	margin-left: 2em;
+	border-radius: 0.5em;
+	background-color: #d12424;
+	font-family: 'Open Sans';
+	color: #ffffff;
+}
+.bottoneaggcarrello a{
+	color: #ffffff;
+}
+.bottoneaggcarrello button:hover{
+	background-color: #000000;
+}

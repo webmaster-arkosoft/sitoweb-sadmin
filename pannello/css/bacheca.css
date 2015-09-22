@@ -1,0 +1,58 @@
+.centropan{ 
+	width: 988px; 
+	height: 330px;
+}
+.menupan{
+	width: 300px;
+	height: 230px;
+	background-color: #E0E0E0;
+	float: left;
+}
+.menupantit{
+	width: 290px;
+	height: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+.menupancont{
+	width: 290px;
+	height: 185px;
+	font-weight: bold;
+}
+.elenco{
+	height: 30px;
+	width: 290px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #999999;
+}
+.elenco a{
+	color: #333333;
+	text-decoration: none;
+}
+.elenco a:hover{
+	color: #333333;
+	text-decoration: underline;
+}
+.pannello{
+	width: 670px; 
+	height: 300px;
+	float: left;
+	margin-left: 10px;
+}
+.menupantit1{
+	width: 660px;
+	height: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+.menupancont1{
+	width: 670px;
+	height: 280px;
+	padding-top: 10px;
+	font-weight: bold;
+}

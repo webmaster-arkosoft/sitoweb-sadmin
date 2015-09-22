@@ -1,0 +1,106 @@
+.boxacquista{
+	text-align: left;
+}
+.barra-navigazione{
+	width: 973px;
+	height: 50px;
+	border: 0px;
+	background:url("../immagini/barra-navigazione2.jpg") no-repeat center top;
+}
+.barra{
+	width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+}
+.barra a{
+	text-decoration: none;
+}
+.barra1{
+	width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+}
+.barra1 a{
+	text-decoration: none;
+	color: #000000;
+}
+.barra1 a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.msgerrore{
+	width:975px;
+	height: 60px;
+	padding-top: 15px;
+	padding-left: 15px;
+	background-color:#FFD2D2;
+	margin-bottom: 10px;
+}
+.bottonetornaindietro{
+	width: 188px;
+	height: 36px;
+	float: left;
+	font-size: 0px;
+	border: 0px;
+	background:url("../immagini/bottone-torna-indietro.jpg") no-repeat center top;
+}
+.bottonetornaindietro:hover{
+	background-position: 0 -37px;
+}
+.divbonifico{
+	width: 970px;
+	height: 230px;
+	border: 1px solid #CCCCCC;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.bonifico{
+	width: 635px;
+	height: 200px;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family:'Open Sans', helvetica, sans-serif;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+}
+.bonifico span{
+	color: #FF0000;
+	font-weight: bold;
+}
+.informazioni{
+	width: 300px;
+	height: 180px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-family:'Open Sans', helvetica, sans-serif;
+	float: left;
+}
+.datibonifico{
+	width: 400px;
+	height: 100px;
+	float: left;
+	margin-top: 35px;
+}
+.imgdatibonifico{
+	width: 180px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 25px;
+}
+.ditta{
+	font-size: 14px;
+	font-weight: bold;
+	font-family:'Open Sans', helvetica, sans-serif;
+}
+.snc{
+	font-size: 10px;
+	font-weight: bold;
+	font-family:'Open Sans', helvetica, sans-serif;
+}

@@ -1,0 +1,201 @@
+.centropan{ 
+	width: 988px; 
+	height: 330px;
+}
+.menupan{
+	width: 300px;
+	height: 230px;
+	background-color: #E0E0E0;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+.menupantit{
+	width: 290px;
+	height: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+.menupancont{
+	width: 290px;
+	height: 185px;
+	font-weight: bold;
+}
+.elenco{
+	height: 30px;
+	width: 290px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #999999;
+}
+.elenco a{
+	color: #333333;
+	text-decoration: none;
+}
+.elenco a:hover{
+	color: #333333;
+	text-decoration: underline;
+}
+.pannello{
+	width: 670px; 
+	height: 300px;
+	float: left;
+	margin-left: 10px;
+}
+.menupantit1{
+	width: 660px;
+	height: 20px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+.menupancont1{
+	width: 669px;
+	margin-top: 10px;
+	background-color: #E0E0E0;
+	border: 1px solid #CCCCCC;
+}
+.riga{
+	width: 668px;
+	height: 30px;
+	border: 1px solid #000000;
+	background-color: #666666;
+	font-size: 13px;
+	font-weight: bold;
+}
+.colid{
+	width: 40px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.colcodice{
+	width: 230px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.colqnt{
+	width: 80px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.colattivati{
+	width: 80px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.coldatainizio{
+	width: 100px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.coldatafine{
+	width: 100px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.colelim{
+	width: 30px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+.riga1{
+	width: 668px;
+	height: 30px;
+	border-bottom: 1px solid #999999;
+}
+.colid1{
+	width: 40px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.colcodice1{
+	width: 230px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.colqnt1{
+	width: 80px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.colattivati1{
+	width: 80px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.coldatainizio1{
+	width: 100px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.coldatafine1{
+	width: 100px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.colelim1{
+	width: 30px;
+	height: 25px;
+	margin-top: 5px;
+	float: left;
+	text-align: center;
+}
+.bottoni{
+	margin-top: 10px;
+	width: 668px;
+	height: 30px;
+}
+.bottoni form{
+	float: left;
+}
+.messaggi{
+	width: 649px;  
+	height: 20px;
+	background-color: #C4FFC4;
+	color: #006600;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 10px;
+}

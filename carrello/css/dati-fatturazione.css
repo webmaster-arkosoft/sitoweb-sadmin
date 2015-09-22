@@ -1,0 +1,367 @@
+/*screenshot in gip per informazioni*/
+.screenshot{
+	height: 80px;
+}
+.boxacquista{
+	text-align: left;
+}
+/*Riepilogo*/
+.divriepilogo{
+	width: 410px;
+	min-height: 200px;
+	height:auto !important;
+	float: left;
+}
+.contenitore{
+	width: 990px;
+	min-height: 960px;
+	height:auto !important;
+}
+.riepilogo{
+	width: 390px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+}
+.iltuoordine{
+	width: 300px;
+	margin-left: 10px;
+	color: #FF0000;
+	font-size: 16px;
+	font-family: 'Open Sans', helvetica, sans-serif;
+	font-weight: bold;
+}
+.ituoidati{
+	width: 300px;
+	margin-left: 10px;
+	color: #FF0000;
+	font-size: 16px;
+	font-family: 'Open Sans', helvetica, sans-serif;
+	font-weight: bold;
+	float: left;
+}
+.boxsingolop{
+	width: 380px;
+	height: 74px;
+	background-color: #E1E1E1;
+	margin-left: 10px;
+}
+.boxsingolop1{
+	width: 380px;
+	height: 84px;
+	background-color: #E1E1E1;
+	margin-left: 10px;
+}
+
+.imgsoftware{
+	width: 80px;
+	height: 74px;
+	float: left;
+	background-color: #FFFFFF;
+}
+.imgsoftware img{
+	width: 50px;
+	height: 50px\9;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.titolosoftware{
+	width: 160px;
+	height: 74px;
+	float: left;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+}
+.imgsoftwaresp{
+	width: 80px;
+	height: 70px;
+	height: 73px\9;
+	height: 70px\0;
+	float: left;
+	background-color: #FFFFFF;
+}
+.titolosoftwaresp{
+	width: 160px;
+	height: 70px;
+	height: 73px\9;
+	height: 70px\0;
+	float: left;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+.titolosoftware p{
+	margin:0px;
+	padding: 0px;
+}
+.prezzosoftware{
+	width: 110px;
+	height: 59px;
+	height: 75px\9;
+	height: 59px\0;
+	float: left;
+	padding-left: 12px;
+	text-align: center;	
+	padding-top: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.prezzosoftware1{
+	width: 110px;
+	height: 69px;
+	float: left;
+	padding-left: 12px;
+	padding-top: 5px;
+	text-align: center;	
+	border-bottom: 1px solid #CCCCCC;
+}
+.prezzooriginaledf{
+	text-decoration: line-through;
+}
+.prezzoscontatodf{
+	color: #FF0000;
+	font-weight: bold;
+}
+.prezzosoftware p{
+	margin:0px;
+	padding: 0px;
+}
+.prezzosoftware1 p{
+	margin:0px;
+	padding: 0px;
+}
+.scrittatotale{
+	color: #000000;
+	font-weight: bold;
+}
+.prezzospese{
+	width: 110px;
+	height: 51px;
+	height: 74px\9;
+	height: 51px\0;
+	float: left;
+	padding-left: 12px;
+	text-align: center;	
+	padding-top: 20px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.prezzospese p{
+	margin:0px;
+	padding: 0px;
+}
+.totalelicenze{
+	width: 370px;
+	height: 30px;
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FF0000;
+	margin-top: 10px;
+}
+/*Riepilogo*/
+
+/*Dati fattura*/
+.divdatifattura{
+	width: 560px;
+	min-height: 710px;
+	height:auto !important;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+	float: left;
+}
+.datifattura{
+	width: 575px;
+}
+.datifattura1{
+	width: 545px;
+	margin-left: 30px;
+	min-height: 710px;
+	height:auto !important;
+}
+.divinput{
+	width: 400px;
+	height: 40px;
+	vertical-align: bottom;
+	float: left;
+}
+.cap{
+	width: 50px;
+	height: 30px;
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #B5B5B5;
+	font-weight: bold;
+}
+.citta{
+	width: 100px;
+	height: 30px;
+	margin-right: 10px;
+	border: 1px solid #B5B5B5;
+	font-weight: bold;
+}
+.prov{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #B5B5B5;
+	font-weight: bold;
+}
+.campo1{
+	width: 60px;
+	height: 30px;
+	float: left;
+}
+.campo2{
+	width: 161px;
+	height: 30px;
+	float: left;
+}
+.campo3{
+	width: 111px;
+	height: 30px;
+	float: left;
+}
+.campoobbligatorio2{
+	font-size: 13px;
+	color: #FF0000;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.campoacquista{
+	width: 150px;
+	height: 40px;
+	float: left;
+}
+.campoacquistanascosto{
+	width: 150px;
+	height: 40px;
+	float: left;
+	display: none;
+}
+.campoacquista div{
+	padding-top: 10px;
+	font-size: 13px;
+	font-family:'Open Sans';
+	font-weight: bold;
+}
+.inputacquista{
+	width: 380px;
+	height: 40px;
+	vertical-align: bottom; 
+	float: left;
+}
+.inputacquistanascosto{
+	width: 380px;
+	height: 40px;
+	vertical-align: bottom; 
+	float: left;
+	display: none;
+}
+.inputacquista1{
+	width: 380px;
+	height: 40px;
+	vertical-align: bottom; 
+	float: left;
+}
+
+.inputacquista input{
+	width: 305px;
+	border: 1px solid #B5B5B5;
+}
+.checkboxacquista{
+	width: 370px;
+	height: 40px;
+	vertical-align: bottom;
+	float: left;
+	font-size: 14px;
+}
+.textareaacquista textarea{
+	background: #F5F5F5;
+	border: 1px solid #000;
+	resize: none;
+}
+.textareaacquista{
+	width: 330px;
+	height: 145px;
+	vertical-align: bottom; 
+	float: left;
+}
+.inserimentoprodotti{
+	width:975px;
+	height:40px;
+	padding-top: 15px;
+	padding-left: 15px;
+	background-color:#FFD2D2;
+	margin-bottom: 10px;
+}
+.barra-navigazione{
+	width: 973px;
+	height: 50px;
+	border: 0px;
+	background:url("../immagini/barra-navigazione1.jpg") no-repeat center top;
+}
+.barra{
+	width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+	color: #FFFFFF;
+}
+.barra a{
+	text-decoration: none;
+}
+.barra1{
+	width: 320px;
+	height: 30px;
+	margin-top: 8px;
+	float: left;
+	text-align: center;
+}
+.barra1 a{
+	text-decoration: none;
+	color: #000000;
+}
+.barra1 a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.pulsanti{
+	width: 970px;
+	height: 50px;
+	text-align: right;
+	margin-top: 20px;
+}
+.bottonetornacarrello{
+	width: 188px;
+	height: 36px;
+	float: left;
+	font-size: 0px;
+	border: 0px;
+	background:url("../immagini/bottone-torna-carrello.jpg") no-repeat center top;
+}
+.bottonetornacarrello:hover{
+	background-position: 0 -37px;
+}
+.tornacar{
+	margin-left: 655px;
+}
+.divpagamento{
+	margin-left: 405px;
+	margin-bottom: 20px;
+}
+.tipopagamento{
+	width: 565px;
+	height: 65px;
+	border: 1px solid #CCCCCC;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+}
+.sceltapagamento{
+	margin-left: 10px;
+	width: 500px;
+	height: 30px;
+}
+.sceltapagamento img{
+	vertical-align: middle;
+	margin-left: 20px;
+}
+/*Dati fattura*/

@@ -1,0 +1,2 @@
+<? $messaggio='<p></p>
+<div style="PADDING-LEFT: 2px; FONT-FAMILY: Arial; FONT-SIZE: 12pt" id="INCREDI_TEXT_AREA">Grazie per esserti registrato al nostro sito.</div>'; $notifica='si';  $num='1'; $legge='<br>';?>
