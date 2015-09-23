@@ -126,6 +126,7 @@
 						</div>
 					</div>
 				</div>
+				<?php include "footer.php"; ?>
 			</div> <!-- cd-main-content -->
 			<div id="cd-lateral-nav">
 				<ul class="cd-navigation cd-single-item-wrapper">
@@ -137,7 +138,6 @@
 					<li><a href="#0">Supporto</a></li>
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
-		<?php include "footer.php"; ?>
 		</div>	
 		<div id="oscura" Onclick="javascript:chiudi();"></div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
