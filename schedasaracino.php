@@ -28,8 +28,8 @@
 					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
 				</div>
 				<div class="logo">&nbsp;</div>
-				<div class="generale-corente">
-					<div class="pag-corente">
+				<div class="generale-corrente">
+					<div class="pag-corrente">
 						<span>Home</span>
 					</div>
 				</div>
