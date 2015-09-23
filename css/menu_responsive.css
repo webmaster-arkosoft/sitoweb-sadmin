@@ -178,7 +178,7 @@
 
 	#cd-menu-trigger {
 		position: absolute;
-		right: 30px;
+		right: 0px;
 		top: 50px;
 		height: 35px;
 		width: 50px;
@@ -257,7 +257,7 @@
 		/* the secondary navigation is covered by the main element */
 		z-index: 1;
 		width: 260px;
-		background-color: #242e30;
+		background-color: #cccccc;
 		overflow-y: auto;
 		/* Force Hardware Acceleration in WebKit */
 		-webkit-transform: translateZ(0);
@@ -274,6 +274,13 @@
 	}
 	#cd-lateral-nav .cd-navigation {
 		margin: 20px 0;
+		margin:20px 0px 0px 0px;
+		padding:0px;
+		list-style:none;
+	}
+	#cd-lateral-nav .cd-navigation li{
+		font-size:18px;
+		font-weight:bold;
 	}
 	#cd-lateral-nav .sub-menu {
 		padding: 0 10px 20px 15px;
@@ -283,10 +290,10 @@
 		display: block;
 		line-height: 2em;
 		padding: 0 16px 0 32px;
-		color: #aab5b7;
+		color:#000000;
 	}
 	#cd-lateral-nav a.current {
-		background-color: #3a4a4d;
+		background-color: #000000;
 		color: #FFF;
 	}
 	.no-touch #cd-lateral-nav a:hover {
@@ -484,6 +491,28 @@
 		width:160px;
 		height:auto;
 	}
+	/* footer */
+	.footer{
+		height: auto;
+	}
+	.box{
+		width: 50%;
+		height:170px;
+	}
+	.descrizionecliente{
+		width: 100%;
+	}
+	.immaginecliente{
+		width:30%;
+	}
+	.storiacliente{
+		width:65%;
+		padding-bottom:10px;
+	}
+	.box1{
+		width: 50%;
+		height:170px;
+	}
 }
 @media only screen and (max-width: 750px) {
 	/* Style principale */
@@ -515,5 +544,39 @@
 	}
 	.descrizioneaggiorna{
 		border-right:0px solid #cccccc;
+	}
+	/* footer */
+	.box{
+		width: 100%;
+		height: auto;
+	}
+	.box1{
+		width: 100%;
+		height: auto;
+		padding-bottom:40px;
+	}
+	.logocopyright{
+		width:100%;
+		max-width: 100%;
+		text-align:center;
+	}
+	.piva{
+		width:100%;
+		max-width:100%;
+		margin-top:30px;
+		text-align:center;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.box{
+		padding-left:0px;
+	}
+	.immaginecliente{
+		width:100%;
+		text-align:center;
+	}
+	.storiacliente{
+		width:100%;
+		text-align:center;
 	}
 }

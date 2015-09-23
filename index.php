@@ -86,7 +86,7 @@
 					</div>
 					<div class="boxd">
 						<div class="puntiforza">
-							<div class="iconapuntiforza"><img src="immagini/icona_puntof.jpg"></div>
+							<div class="iconapuntiforza"><img src="immagini/icona_puntof.jpg" alt="" width="58" height="56"></div>
 							<div class="domandapuntiforza">Che differenza c'&egrave; tra un <u>Sito Normale</u> e S-Admin ?</div>
 						</div>
 						<div class="rispostapuntiforza">
@@ -95,7 +95,7 @@
 							Il modulo per l'inserimento &egrave; stato ideato su misura per i negozi di arredamento e i mobilifici, quindi consente di inserire oltre al nome del mobile e alla sua descrizione le sue caratteristiche quali l'altezza, la lunghezza, la profondit&agrave;, la tipologia di legno utilizzata per fabbricare il mobile, il suo colore, l'anno di creazione, la laccatura, ecc.<br /><br />
 							Per apprezzare al meglio le caratteristiche di S-Admin prova subito a caricare un prodotto.<br />
 							<div class="linkpuntiforza">
-								<div class="linkpuntiforza1"><img src="immagini/inserisci.gif"></div>
+								<div class="linkpuntiforza1"><img src="immagini/inserisci.gif" alt="" width="17" height="19"></div>
 								<div class="linkpuntiforza2"><a href="#" Onclick="javascript: oscura(); caricapagina();">Inserisci un prodotto</a></div>	
 							</div>
 						</div>
@@ -104,22 +104,22 @@
 				<div class="footer">
 					<div class="box">
 						<div class="descrizionecliente">
-							<div class="immaginecliente"><img src="immagini/saracino.png"></div>
+							<div class="immaginecliente"><img src="immagini/saracino.png" alt="" width="99" height="130"></div>
 							<div class="storiacliente">
 								La <b>Saracino Arreda</b> &egrave; un'azienda residente ad Avetrana (TA) che opera nel settore dell'Arredamento. Nasce nel 1955, un'azienda professionale e ricca di tradizioni.<br /><br />
-								<img src="immagini/continua.jpg"><a href="schedasaracino.html">Continua a leggere</a>
+								<img src="immagini/continua.jpg" alt="" width="25" height="15"><a href="schedasaracino.html">Continua a leggere</a>
 							</div>
 						</div>
-					</div>		
+					</div>
 					<div class="box1">
 						I Nostri Clienti<br />che usano <br /><b>S-Admin</b>
 					</div>	
 					<div class="box">
 						<div class="descrizionecliente">
-							<div class="immaginecliente"><img src="immagini/poti.png"></div>
+							<div class="immaginecliente"><img src="immagini/poti.png" alt="" width="107" height="101"></div>
 							<div class="storiacliente">
 								<b>Pot&igrave; Arredamenti</b> viene fondata nel 1955 un'azienda residente a Novoli (Le) fondata da Giuseppe Pot&igrave; diventata un importante punto di riferimento del settore nel Salento.<br /><br />
-								<img src="immagini/continua.jpg"><a href="schedapoti.html">Continua a leggere</a>
+								<img src="immagini/continua.jpg" alt="" width="25" height="15"><a href="schedapoti.html">Continua a leggere</a>
 							</div>
 						</div>
 					</div>
@@ -127,11 +127,12 @@
 			</div> <!-- cd-main-content -->
 			<div id="cd-lateral-nav">
 				<ul class="cd-navigation cd-single-item-wrapper">
-					<li><a class="current" href="#0">Journal</a></li>
-					<li><a href="#0">FAQ</a></li>
-					<li><a href="#0">Terms &amp; Conditions</a></li>
-					<li><a href="#0">Careers</a></li>
-					<li><a href="#0">Students</a></li>
+					<li><a class="current" href="#0">Home</a></li>
+					<li><a href="#0">Acquista</a></li>
+					<li><a href="#0">Galleria</a></li>
+					<li><a href="#0">Blog</a></li>
+					<li><a href="#0">Guida</a></li>
+					<li><a href="#0">Supporto</a></li>
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		<?php include "footer.php"; ?>

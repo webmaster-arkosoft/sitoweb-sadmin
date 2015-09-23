@@ -316,13 +316,14 @@ a.download:hover{
 	float:left;
 }
 .copyright{
-	width: 991px; 
+	width: 100%;
+	max-width:991px;
 	font-size: 14px;
 	font-family: 'Open Sans';
 	color: #666;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	height: 130px;
+	height: auto;
 	float: left;
 }
 .copyright a{
@@ -335,6 +336,9 @@ a.download:hover{
 	text-decoration: underline;
 }
 .piva{
+	width:40%;
+	max-width:400px;
+	height:auto;
 	float: left;
 	text-align: right;
 	font-size: 12px;
@@ -351,8 +355,10 @@ a.download:hover{
 	text-decoration: underline;
 }
 .logocopyright{
-	float: left; 
-	width: 670px; 
+	float: left;
+	width:60%;
+	max-width: 670px;
+	height:auto;	
 	/*border: 1px solid #ff0000;*/
 }
 .arkocopyright{
@@ -367,7 +373,7 @@ a.download:hover{
 .box{
 /*	border: 1px dotted #CCC; */ 
 	width: 320px; 
-	height: 165px; 
+	height: auto; 
 	float: left;
 	background-color: #CCC;
 	padding-left: 10px;
@@ -385,7 +391,7 @@ a.download:hover{
 .descrizionecliente{
 	/*border: 1px solid #ff0000;*/
 	width: 308px; 
-	height: 125px; 
+	height: auto; 
 }
 .immaginecliente{
 	width: 128px; 
@@ -394,7 +400,7 @@ a.download:hover{
 }
 .storiacliente{
 	width: 180px; 
-	height: 125px;
+	height: 100%;
 	float: left;	
 	font-family: 'Open Sans';
 	font-size: 13px;
@@ -404,7 +410,7 @@ a.download:hover{
 	background-color: #E4E6E7;
 	padding-top: 43px;
 	width: 333px; 
-	height: 142px; 
+	height: 140px; 
 	float: left;
 	text-align: center;
 	font-family: 'Open Sans';
