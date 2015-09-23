@@ -186,7 +186,8 @@ a.download:hover{
 }
 .boxmadregalleria{
 	width: 973px;
-	height: 870px;
+	height: auto;
+	float:left;
 	background-color: #FFFFFF;
 	padding: 10px;
 }

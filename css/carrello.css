@@ -37,7 +37,7 @@
 .prezzosoftware{width: 350px;height: 50px;margin-top: 10px;margin-left: 10px;font-size: 18px;font-weight: bold;font-family:'Open Sans';}
 .prezzosoftware span{color: #FF0000;}
 .bottonesoftware{width: 200px;height: 50px;margin-left: 150px;}
-.ripcarrello{width: 963px; text-align: left; height: 30px;border: 1px solid #CCCCCC;background-color: #FFFFFF;padding-left: 10px;padding-top: 10px;margin-top: 10px;}
+.ripcarrello{width:100%; max-width: 963px; text-align: left; height: auto;border: 1px solid #CCCCCC;background-color: #FFFFFF;padding-left: 10px;padding-top: 10px;margin-top: 10px;}
 .ripcarrello a{color: #000000;font-weight: bold;}
 
 .boxprodotto{width: 983px;height: 170px;border-bottom: 1px solid #CCCCCC;float: left;padding-top: 10px;background-color: #FFFFFF;}

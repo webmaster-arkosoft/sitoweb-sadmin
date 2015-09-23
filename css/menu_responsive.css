@@ -1,4 +1,4 @@
-#cd-logo, #cd-menu-trigger, #cd-lateral-nav, .generale-corente
+#cd-logo, #cd-menu-trigger, #cd-lateral-nav, .generale-corrente
 {display:none;}
 
 @media only screen and (max-width: 1000px) {
@@ -154,20 +154,20 @@
 		color: rgba(255, 255, 255, 0.7);
 	}
 	
-	.generale-corente{
+	.generale-corrente{
 		width:100%;
 		height:auto;
 		background:#000000;
 		display:block;
 		float:left;
 	}
-	.pag-corente{
+	.pag-corrente{
 		width:100%;
 		height:35px;
 		text-align:center;
 		float:left;
 	}
-	.pag-corente span{
+	.pag-corrente span{
 		font-size:18px;
 		color:#ffffff;
 		font-family: 'Open Sans';
@@ -555,6 +555,29 @@
 		width: 98%;
 		margin-left:5px;
 	}
+	/* acquista */
+	.boxmadregalleria{
+		width:100%;
+		height:auto;
+		padding:0px 10px;
+		float:left;
+	}
+	.desccarrello {width: 99%;}
+	.boxacquista {width: 100%;margin: 0px auto;text-align: center;}
+	.titoloacquista1{width: 100%;height: auto;}
+	.divboxlicenze {width: 100%;height: auto;margin: 10px 0px;float: left;}
+	.boxprodotto{width: 100%;height: auto;}
+	.boxdescrizione{width: 100%;height: auto;}
+	.imgprodotto{width: 100%;height: auto;}
+	.descprodotto{width: 100%; height: auto; float:left; text-align: center;}
+	.descprodotto p{padding-right: 0px; margin: 0px 5px;}
+	.titoloprod{width: 100%;height: auto;margin: 10px 0px;}
+	.aggiungiprodotto{width: 100%;height: auto;margin-bottom:20px;}
+	.prezzoprod{width: 100%; height: auto;}
+	.ivaprod{width: 100%; height: auto;}
+	.disponibilitaprod{width: 100%; height: auto;}
+	.bottoneaggcarrello{text-align: center;}
+	.bottoneaggcarrello .button{margin: 2em auto;}
 }
 @media only screen and (max-width: 750px) {
 	/* Style principale */
