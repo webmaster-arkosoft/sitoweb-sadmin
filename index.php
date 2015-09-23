@@ -11,7 +11,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
-		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 		<?php include "analitycs.php"; ?>
 	</head>
 	<body>
