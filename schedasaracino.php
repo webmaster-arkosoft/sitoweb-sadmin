@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Saracino Arreda - uno dei Nostri clienti</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="title" content="Saracino Arreda - uno dei Nostri clienti">
 		<meta name="description" content="Saracino Arreda si è affidato a Software Arredamento per la gestione del suo portale di arredamento">
 		<meta name="keywords" content="saracino arreda, arredamenti a avetrana, software arredamento, mobilificio, offerte, silvano grifoni">

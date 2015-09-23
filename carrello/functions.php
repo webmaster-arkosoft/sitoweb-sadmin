@@ -18,7 +18,7 @@ function calcolatempo($data_iniziale,$data_finale,$unita) {
 //Funzione che mi trovo i prodotti scontati con quell'id coupon
 function prodottiscontati($idcoupon){
 		//include config
-		include "configcar.php";
+		include "config.php";
 		//connessione al database
 		$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");
 		//selezione del database

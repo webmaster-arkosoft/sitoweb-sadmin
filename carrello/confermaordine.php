@@ -5,10 +5,10 @@
 </div>
 		<div class="divbonifico">
 			<div class="bonifico">
-				Grazie per aver acquistato Softshop, il gestionale di magazzino.<br />
+				Grazie per aver acquistato Ristomanager, il gestionale per la ristorazione.<br />
 				Provvederemo quanto prima a emettere la fattura relativa al suo acquisto ed a fornirLe il seriale per l'attivazione!<br /><br />
 				<div class="bottonetornahome">
-					<a class="bottonetornahome" href="http://www.softwarearredamento.com">http://www.softwarearredamento.com</a>
+					<a class="bottonetornahome" href="<?php print "http://".$_SERVER['HTTP_HOST']; ?>">&nbsp;</a>
 				</div>
 			</div>	
 			<div class="informazioni">

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Potì Arredamenti - uno dei Nostri clienti</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="title" content="Potì Arredamenti - uno dei Nostri clienti">
 		<meta name="description" content="Potì Arredamenti si è affidato a Software Arredamento per la gestione del suo portale di arredamento">
 		<meta name="keywords" content="potì arredamenti, arredamenti a lecce, arredamenti novoli, tutto su l'arredamento a lecce, software arredamento, mobili usati">

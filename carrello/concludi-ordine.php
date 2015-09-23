@@ -163,7 +163,7 @@
 		$arrayprodotti=prodottiscontati($_POST['idcoupon']);
 	
 		// include config
-		include "configcar.php";
+		include "config.php";
 		//connessione al database
 		$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");
 		//selezione del database
@@ -215,7 +215,7 @@
 		
 ?>		<div class="divbonifico">
 			<div class="bonifico">
-				Grazie <strong><?php print $_POST['nome']." ".$_POST['cognome']; ?></strong> per aver acquistato Softshop, il gestionale di magazzino.<br />
+				Grazie <strong><?php print $_POST['nome']." ".$_POST['cognome']; ?></strong> per aver acquistato Ristomanager, il gestionale per la ristorazione.<br />
 				
 <?php			//PAGAMENTO CON BONIFICO
 				if(isset($_POST['tipopagamento']) and $_POST['tipopagamento']=="2"){
@@ -239,7 +239,7 @@
 					<form name="pay" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_cart">
 						<input type="hidden" name="business" value="info@arkosoft.it">
-						<input type="hidden" name="item_name_1" value="Acquisto su S-Admin">
+						<input type="hidden" name="item_name_1" value="Acquisto su ristomanager.it">
 						<input type="hidden" name="currency_code" value="EUR">
 						<input type="hidden" name="amount_1" value="<?php print decimali($totale+$spese); ?>">
 						<input type="hidden" name="upload" value="1">
@@ -269,7 +269,7 @@
 
 		if($_SESSION['invio']=="0" and strlen($_SESSION['email'])>0){
 			//include config
-			include "configcar.php";
+			include "config.php";
 			//connessione al database
 			$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");
 			//selezione del database
@@ -294,7 +294,7 @@
 		}else{
 ?>			<script>
 			function aggiorna(){
-				var url = 'http://www.softwarearredamento.com';
+				var url = 'http://www.ristomanager.it';
 				window.location.href = url;
 			}
 			setTimeout(function(){aggiorna()}, 2000);

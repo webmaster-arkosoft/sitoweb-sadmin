@@ -29,11 +29,11 @@
 	display: none;
 }
 .titoli{
-	width: 973px;
+	width: 991px;
 	height: 37px;
 }
 .nomesoftware{
-	width: 220px; 
+	width: 238px; 
 	height: 37px; 
 	border: 1px solid #CCCCCC;
 	background:#fff url("../immagini/cart-titolo.jpg") repeat-x;
@@ -117,8 +117,8 @@
 	text-align: left;
 }
 .dnomesoftware{
-	width: 220px; 
-	height: 60px; 
+	width: 238px; 
+	height: 70px; 
 	border: 1px solid #CCCCCC;
 	float: left;
 	padding-top: 10px;
@@ -135,17 +135,17 @@
 	height: 55px;
 }
 .titolodnomesoftware{
-	width: 138px;
+	width: 150px;
 	height: 45px;
 	padding-top: 15px;
 	float: left;
 	color: #000000;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
 }
 .dconsegna{
 	width: 140px; 
-	height: 60px; 
+	height: 70px; 
 	border: 1px solid #CCCCCC;
 	float: left;
 	padding-top: 10px;
@@ -163,9 +163,9 @@
 }
 .dquantita{
 	width: 150px; 
-	height: 47px;
-	height: 25\9;
-	height: 47\0;
+	height: 70px;
+	height: 70\9;
+	height: 50\0;
 	border: 1px solid #CCCCCC;
 	float: left;
 	padding-top: 23px;
@@ -180,7 +180,7 @@
 }
 .ddurata{
 	width: 140px; 
-	height: 60px; 
+	height: 70px; 
 	padding-top: 10px;
 	border: 1px solid #CCCCCC;
 	float: left;
@@ -231,7 +231,7 @@
 }
 .dcancellalicenza{
 	width: 28px; 
-	height: 55px; 
+	height: 70px; 
 	border: 1px solid #CCCCCC;
 	float: left;
 	padding-top: 15px;
@@ -268,9 +268,9 @@
 	float: left;
 }
 .footercarrello{
-	width: 960px;
-	width: 962px\9;
-	width: 960px\0;
+	width: 978px;
+	width: 976px\9;
+	width: 978px\0;
 	height: 70px;
 	border: 1px solid #CCCCCC;
 	background:#fff url("../immagini/footercarrello.jpg") repeat-x;
@@ -287,7 +287,7 @@
 	text-align: left;
 }
 .divimponibile{
-	width: 782px;
+	width: 808px;
 	height: 50px;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -304,7 +304,7 @@
 	margin-left: 650px;
 }
 .spesesped{
-	width: 782px;
+	width: 808px;
 	height: 50px;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -426,7 +426,7 @@
 	float: left;
 }
 .spazio{
-	width: 654px;
+	width: 663px;
 	float: left;
 }
 .bottoni span{
@@ -438,7 +438,7 @@
 	font-size: 0px;
 }
 .nessunprodotto{
-	width: 960px;
+	width: 978px;
 	height: 70px;
 	float: left;
 	background-color: #FFD7D7;
@@ -480,9 +480,9 @@
 	cursor: pointer;
 }
 .barra-navigazione{
-	width: 973px;
+	width: 990px;
 	width: 976px\9;
-	width: 973px\0;
+	width: 990px\0;
 	height: 50px;
 	border: 0px;
 	background:url("../immagini/barra-navigazione.jpg") no-repeat center top;
@@ -517,13 +517,13 @@
 
 /*ID COUPON*/
 .coupon{
-	width: 973px;
+	width: 990px;
 	height: 40px;
 }
 .testocoupon{
-	width: 646px;
-	width: 650px\9;
-	width: 646px\0;
+	width: 668px;
+	width: 668px\9;
+	width: 664px\0;
 	height: 40px;
 	float: left;
 	border: 1px solid #CCCCCC;
@@ -549,7 +549,7 @@
 }
 .inputcoupon{
 	width: 280px;
-	height: 32px;
+	height: 40px;
 	height: 40px\9;
 	height: 32px\0;
 	float: left;
@@ -568,10 +568,10 @@
 	border: 1px solid #999999;
 }
 .successoff{
-	width: 32px;
+	width: 28px;
 	width: 32px\9;
 	width: 32px\0;
-	height: 32px;
+	height: 40px;
 	height: 40px\9;
 	height: 32px\0;
 	padding-top: 8px;

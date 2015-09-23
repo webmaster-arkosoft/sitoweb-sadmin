@@ -2,7 +2,7 @@
 	text-align: left;
 }
 .barra-navigazione{
-	width: 973px;
+	width: 988px;
 	height: 50px;
 	border: 0px;
 	background:url("../immagini/barra-navigazione2.jpg") no-repeat center top;
@@ -53,18 +53,17 @@
 	background-position: 0 -37px;
 }
 .divbonifico{
-	width: 970px;
+	width: 990px;
 	height: 230px;
 	border: 1px solid #CCCCCC;
 	padding-top: 10px;
 	background-color: #FFFFFF;
-	margin-bottom: 20px;
 }
 .bonifico{
-	width: 635px;
+	width: 650px;
 	height: 200px;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	font-family:'Open Sans', helvetica, sans-serif;
 	float: left;
 	border-right: 1px solid #CCCCCC;

@@ -5,7 +5,7 @@
 	if(isset($_POST['prodotto']) and strlen($_POST['prodotto'])>0 and $_POST['settasession']=="true"){ include "insercarrellofatt.php"; }	
 
 		
-	$_SESSION['invio']="0";	
+	$_SESSION['invio']="0";
 	
 	$tipoattivita=1;
 		

@@ -1,8 +1,8 @@
 <?php
 			//E-MAIL AMMINISTRATORE E ACQUIRENTE
 			//Invio preventivo via email
-			$oggetto="Licenze di S-Admin vendute su www.softwarearredamento.com";
-			$oggetto1="Licenze di S-Admin acquistate su www.softwarearredamento.com";
+			$oggetto="Licenze di RistoManager vendute su www.ristomanager.it";
+			$oggetto1="Licenze di RistoManager acquistate su www.ristomanager.it";
 			
 			//Tipo di pagamento
 			switch($tipo){
@@ -93,23 +93,13 @@
 					}
 					
 					//righe della tabella
-					if($_SESSION['carrello'][$i][5]=="0"){
-						$contenutoemail.='<tr>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][4].'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][2].'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$prezzoprod.'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.number_format($prezzoprod*$_SESSION['carrello'][$i][4],2).'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][5].'</td>
-						</tr>';
-					}else{
-						$contenutoemail.='<tr>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][4].'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][2].'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$prezzoprod.'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.number_format($prezzoprod*$_SESSION['carrello'][$i][4],2).'</td>
-							<td style="border: 1px solid #ccc; width: 20%; text-align: center;">Nessun costo di rinnovo annuale</td>
-						</tr>';
-					}	
+					$contenutoemail.='<tr>
+						<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][4].'</td>
+						<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][2].'</td>
+						<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$prezzoprod.'</td>
+						<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.number_format($prezzoprod*$_SESSION['carrello'][$i][4],2).'</td>
+						<td style="border: 1px solid #ccc; width: 20%; text-align: center;">'.$_SESSION['carrello'][$i][5].'</td>
+					</tr>';
 				}
 			}
 			
@@ -194,8 +184,8 @@
 			$mail = new PHPMailer();
 			//Invio preventivo via email
 			$mail->IsHTML(true);
-			$mail->From = "info@softwarearredamento.com";
-			$mail->FromName = "S-Admin";
+			$mail->From = "info@ristomanager.it";
+			$mail->FromName = "RistoManager";
 			$mail->AddAddress("info@arkosoft.it");
 			$mail->AddAddress("vendite@arkosoft.it");
 			$mail->Subject=$oggetto;
@@ -206,8 +196,8 @@
 			$mail1 = new PHPMailer();
 			//Invio preventivo via email
 			$mail1->IsHTML(true);
-			$mail1->From = "info@softwarearredamento.com";
-			$mail1->FromName = "S-Admin";
+			$mail1->From = "info@ristomanager.it";
+			$mail1->FromName = "RistoManager";
 			$mail1->AddAddress($email);
 			$mail1->Subject=$oggetto1;
 			$mail1->Body=$contenutoemail1;

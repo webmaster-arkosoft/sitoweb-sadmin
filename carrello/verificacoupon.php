@@ -1,7 +1,7 @@
 <?php
 		
 	// include config
-	include "../configcar.php";
+	include "../config.php";
 	include "functions.php";
 	//connessione al database
 	$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");

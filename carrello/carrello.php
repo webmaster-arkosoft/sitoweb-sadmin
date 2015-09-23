@@ -61,16 +61,7 @@
 							<input type="hidden" name="elemcorrente" id="elemcorrente" value="<?php print $_SESSION['carrello'][$a][0]; ?>" />
 						</form>
 					</div>
-					<div class="ddurata">
-						<div>
-<?php 
-								if($_SESSION['carrello'][$a][5]>0){
-									print $_SESSION['carrello'][$a][5];
-								}else{
-									print "-";	
-								}
-?>						</div>
-					</div>
+					<div class="ddurata"><div><?php print $_SESSION['carrello'][$a][5]; ?></div></div>
 					<div class="dprezzounitario" id="<?php print $_SESSION['carrello'][$a][0]; ?>gena">
 						<div id="<?php print $_SESSION['carrello'][$a][0]; ?>prea" class="prezzonormale">
 							<?php print "&euro; ".decimali($_SESSION['carrello'][$a][6]); ?>
@@ -103,7 +94,7 @@
 		}
 		
 		//include config
-		include "configcar.php";
+		include "config.php";
 		//connessione al database
 		$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");
 		//selezione del database
@@ -134,7 +125,7 @@
 		//Se c'è almeno un prodotto nel carrello
 		if(count($_SESSION['carrello'])>0){
 ?>			<div class="coupon">
-				<div class="testocoupon"><img src="carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
+				<div class="testocoupon"><img src="http://www.ristomanager.it/carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
 				<div class="inputcoupon"><input type="text" name="idcoupon" id="idcoupon" value="" onfocus="javascript: coupon(this);" onkeyup="javascript: coupon(this);"></div>
 				<div id="success" class="successoff">&nbsp;</div>
 			</div>

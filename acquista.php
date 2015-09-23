@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<title>Software Arredamento I nostri prezzi</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<meta name="description" content="Pannello di controllo di Software Arredamento">
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
