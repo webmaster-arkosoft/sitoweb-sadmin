@@ -102,6 +102,9 @@
 					</div>
 				</div>	
 				<div class="footer">
+					<div class="box1-nascosto">
+						I Nostri Clienti<br />che usano <br /><b>S-Admin</b>
+					</div>	
 					<div class="box">
 						<div class="descrizionecliente">
 							<div class="immaginecliente"><img src="immagini/saracino.png" alt="" width="99" height="130"></div>
@@ -113,7 +116,7 @@
 					</div>
 					<div class="box1">
 						I Nostri Clienti<br />che usano <br /><b>S-Admin</b>
-					</div>	
+					</div>
 					<div class="box">
 						<div class="descrizionecliente">
 							<div class="immaginecliente"><img src="immagini/poti.png" alt="" width="107" height="101"></div>

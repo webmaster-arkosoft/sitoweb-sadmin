@@ -479,17 +479,20 @@
 	.domandapuntiforza {
 		height: auto;
 		width:auto;
+		padding-top:15px;
     }
 	.rispostapuntiforza{
 		width: 95%; 
 		height: auto;
 		padding-top: 0px;
+		font-size:13px;
 		float:left;
 	}
 	.linkpuntiforza{
-		margin:5px auto;
-		width:160px;
+		margin:5px 0px;
+		width:170px;
 		height:auto;
+		float:right;
 	}
 	/* footer */
 	.footer{
@@ -497,7 +500,7 @@
 	}
 	.box{
 		width: 50%;
-		height:170px;
+		height:200px;
 	}
 	.descrizionecliente{
 		width: 100%;
@@ -508,10 +511,22 @@
 	.storiacliente{
 		width:65%;
 		padding-bottom:10px;
+		font-size:16px;
 	}
 	.box1{
-		width: 50%;
-		height:170px;
+		display:none;
+	}
+	.box1-nascosto{
+		display:block;
+		background-color: #E4E6E7;
+		padding-top: 43px;
+		padding-bottom:40px;
+		width: 100%; 
+		height: auto;
+		float: left;
+		text-align: center;
+		font-family: 'Open Sans';
+		font-size: 24px;
 	}
 }
 @media only screen and (max-width: 750px) {
@@ -549,11 +564,7 @@
 	.box{
 		width: 100%;
 		height: auto;
-	}
-	.box1{
-		width: 100%;
-		height: auto;
-		padding-bottom:40px;
+		margin-top:2px;
 	}
 	.logocopyright{
 		width:100%;
