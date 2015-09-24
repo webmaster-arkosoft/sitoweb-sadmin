@@ -6,7 +6,7 @@ body{
 	background-color: #F4F2ED;
 }
 .generale{
-	width:100%;
+	width:99%;
 	height:auto;
 	max-width:994px;
 	margin:0px auto;
@@ -327,7 +327,7 @@ a.download:hover{
 	padding-top: 10px;
 	padding-bottom: 20px;
 	height: auto;
-	float: left;
+	/*float: left;*/
 }
 .copyright a{
 	font-size: 14px;
@@ -377,6 +377,7 @@ a.download:hover{
 /*	border: 1px dotted #CCC; */ 
 	width: 320px; 
 	height: auto; 
+	min-height:200px;
 	float: left;
 	background-color: #CCC;
 	padding-left: 10px;
@@ -415,7 +416,8 @@ a.download:hover{
 	padding-top: 43px;
 	padding-bottom:10px;
 	width: 333px; 
-	height: 140px; 
+	height: auto;
+	min-height:178px;	
 	float: left;
 	text-align: center;
 	font-family: 'Open Sans';

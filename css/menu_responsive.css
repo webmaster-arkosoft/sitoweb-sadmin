@@ -257,7 +257,7 @@
 		background-color: #000000;
 		color: #FFF;
 	}
-	.no-touch #cd-lateral-nav a:hover {
+	#cd-lateral-nav a:hover {
 		color: #FFF;
 	}
 	#cd-lateral-nav.lateral-menu-is-open {
@@ -362,7 +362,7 @@
 	.motto{width: 100%;height:auto;float:left;}
 	.mobile{width: 45%;height: 100%;float: right;}
 	/* box madre */
-	.boxmadre{height: auto;float:left;}
+	.boxmadre{height: auto;}
 	.boxs{width: 100%;height: auto;margin-bottom:20px;}
 	.contenutoagg{width: 100%;height: auto;float:left;}
 	.aggiornamenti{border: 1px solid #CCC;width: 100%;height: auto;float:left;}
@@ -378,8 +378,8 @@
 	.rispostapuntiforza{width: 95%;height: auto;padding-top: 0px;font-size:13px;float:left;}
 	.linkpuntiforza{margin:5px 0px;width:170px;height:auto;float:right;}
 	/* footer */
-	.footer{height: auto;}
-	.box{width: 50%;height:200px;}
+	.footer{height: auto;float:none;}
+	.box{width: 50%;height:auto;min-height:230px;}
 	.descrizionecliente{width: 100%;}
 	.immaginecliente{width:30%;}
 	.storiacliente{width:65%;padding-bottom:10px;font-size:16px;}
