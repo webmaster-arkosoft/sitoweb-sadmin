@@ -27,7 +27,7 @@
 					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
 					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
 				</div>
-				<div class="logo">&nbsp;</div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Saracino Arreda</span>
