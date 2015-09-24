@@ -327,7 +327,7 @@ a.download:hover{
 	padding-top: 10px;
 	padding-bottom: 20px;
 	height: auto;
-	/*float: left;*/
+	float: left;
 }
 .copyright a{
 	font-size: 14px;

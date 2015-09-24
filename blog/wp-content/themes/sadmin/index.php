@@ -76,16 +76,16 @@
 	</div> <!-- cd-main-content -->
 	<div id="cd-lateral-nav">
 		<ul class="cd-navigation cd-single-item-wrapper">
-			<li><a href="#0">Home</a></li>
-			<li><a href="#0">Acquista</a></li>
-			<li><a href="#0">Galleria</a></li>
-			<li><a class="current" href="#0">Blog</a></li>
-			<li><a href="#0">Guida</a></li>
-			<li><a href="#0">Supporto</a></li>
+			<li><a href="http://www.softwarearredamento.com">Home</a></li>
+			<li><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></li>
+			<li><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></li>
+			<li><a class="current" href="http://www.softwarearredamento.com/blog/">Blog</a></li>
+			<li><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></li>
+			<li><a href="http://ticket.arkosoft.it">Supporto</a></li>
 		</ul> <!-- cd-single-item-wrapper -->
 	</div>
+	<div id="oscura" Onclick="javascript:chiudi();"></div>
 </div>
-<div id="oscura" Onclick="javascript:chiudi();"></div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="http://www.softwarearredamento.com/js/main.js"></script> <!-- Resource jQuery -->
 </body>

@@ -49,7 +49,7 @@
 	<!-- Header -->
 	<div class="header" id="header">
 		<div class="textlogo">
-			<a id="cd-logo" href="#0"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+			<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 		</div>
 		<div class="menu" id="cd-top-nav">
 			<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>

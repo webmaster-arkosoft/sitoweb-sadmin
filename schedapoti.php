@@ -30,7 +30,7 @@
 				<div class="logo">&nbsp;</div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
-						<span>Home</span>
+						<span>Pot&igrave; Arredamenti</span>
 					</div>
 				</div>
 				<a id="cd-menu-trigger" href="#0">
@@ -112,7 +112,7 @@
 			</div> <!-- cd-main-content -->
 			<div id="cd-lateral-nav">
 				<ul class="cd-navigation cd-single-item-wrapper">
-					<li><a class="current" href="http://www.softwarearredamento.com">Home</a></li>
+					<li><a href="http://www.softwarearredamento.com">Home</a></li>
 					<li><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></li>
 					<li><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></li>
 					<li><a href="http://www.softwarearredamento.com/blog/">Blog</a></li>
