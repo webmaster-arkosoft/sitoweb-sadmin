@@ -5,6 +5,7 @@ body{
 	font-family: 'Open Sans';
 	background-color: #F4F2ED;
 }
+a img{border:0px;}
 .generale{
 	width:99%;
 	height:auto;
@@ -71,7 +72,7 @@ a.download:hover{
 	text-decoration: none;
 }
 .header{
-	width: 1000px; 
+	width: 995px; 
 	/*border: 1px solid #ff0000;*/ 
 	text-align: center;
 	height: 52px; 
@@ -184,11 +185,11 @@ a.download:hover{
 	text-decoration: underline;
 }
 .boxmadregalleria{
-	width: 973px;
+	width: 980px;
 	height: auto;
 	float:left;
 	background-color: #FFFFFF;
-	padding: 10px;
+	padding: 7px;
 }
 .boxmadrecar{
 	width: 973px;
@@ -373,8 +374,8 @@ a.download:hover{
 	background-color: #FFFFFF;
 }
 .box{
-/*	border: 1px dotted #CCC; */ 
-	width: 320px; 
+/*	border: 1px dotted #CCC; */
+	width: 320px;
 	height: auto; 
 	min-height:200px;
 	float: left;
@@ -382,6 +383,9 @@ a.download:hover{
 	padding-left: 10px;
 	padding-top: 20px;
 	padding-bottom:10px;
+}
+.box{
+	width: 319px\0/;
 }
 .box a{
 	color: #000;
@@ -454,7 +458,7 @@ a.download:hover{
 	padding: 0;
 }
 .puntiforza{
-	width: 490px; 
+	width: 445px; 
 	height: 30px; 
 	padding-top: 30px; 
 	padding-left: 10px;
@@ -778,8 +782,8 @@ a.download:hover{
 }
 .contenutoprefazione{
 	margin-top: 20px;
-	width: 991px;
-	height: 350px;
+	width: 100%;
+	height: autos;
 	font-family: 'Open Sans';
 /*	border: 1px solid #ff0000;*/
 }

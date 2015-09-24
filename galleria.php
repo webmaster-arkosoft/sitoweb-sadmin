@@ -10,18 +10,18 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css">
 		<link rel="stylesheet" href="css/gallery.css">
-		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/prototype.js"></script>
 		<script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
 		<script type="text/javascript" src="js/frog.js"></script>
+		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 		<?php include "analitycs.php"; ?>
 	</head>
 	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?>>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="#0"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
@@ -31,7 +31,7 @@
 					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
 					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
 				</div>
-				<div class="logo">&nbsp;</div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Acquista</span>
@@ -82,12 +82,12 @@
 			</div>
 			<div id="cd-lateral-nav">
 				<ul class="cd-navigation cd-single-item-wrapper">
-					<li><a href="#0">Home</a></li>
-					<li><a href="#0">Acquista</a></li>
-					<li><a class="current" href="#0">Galleria</a></li>
-					<li><a href="#0">Blog</a></li>
-					<li><a href="#0">Guida</a></li>
-					<li><a href="#0">Supporto</a></li>
+					<li><a href="http://www.softwarearredamento.com">Home</a></li>
+					<li><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></li>
+					<li><a class="current" href="http://www.softwarearredamento.com/galleria.html">Galleria</a></li>
+					<li><a href="http://www.softwarearredamento.com/blog/">Blog</a></li>
+					<li><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></li>
+					<li><a href="http://ticket.arkosoft.it">Supporto</a></li>
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>

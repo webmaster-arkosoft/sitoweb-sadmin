@@ -16,12 +16,12 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/carrello.css">
 		<link rel="stylesheet" href="carrello/css/carrello.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
+		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 		<?php include "analitycs.php"; ?>
 	</head>
 	<body>

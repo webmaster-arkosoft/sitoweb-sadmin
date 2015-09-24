@@ -5,6 +5,7 @@ body{
 	font-family: 'Open Sans';
 	background-color: #F4F2ED;
 }
+a img{border:0px;}
 .generale{
 	width:100%%;
 	height:auto;
@@ -30,7 +31,7 @@ body{
 	z-index:100;
 }
 .header{
-	width: 1000px; 
+	width: 999px; 
 	/*border: 1px solid #ff0000;*/ 
 	text-align: center;
 	height: 52px; 

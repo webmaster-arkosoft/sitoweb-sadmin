@@ -8,6 +8,7 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php printf(__('%s RSS Feed', 'yiw'), get_bloginfo('name')); ?>" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="<?php printf(__('%s Atom Feed', 'yiw'), get_bloginfo('name')); ?>" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 	<meta name="title" content="Software arredamento è la soluzione per realizzare il tuo sito di arredamento" />
 	<meta name="keywords" content="software arredamento, software arredamento interni, software per arredare casa, software per arredare, software arredare casa, software arredo casa" />
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
