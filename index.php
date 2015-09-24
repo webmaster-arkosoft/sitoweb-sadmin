@@ -3,6 +3,7 @@
 	<head>
 		<title>S-Admin - il Software per arredamento</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="title" content="Software arredamento è la soluzione per realizzare il tuo sito di arredamento">
 		<meta name="description" content="Software arredamento è la soluzione ideale per realizzare con stile il tuo sito di arredamento">
 		<meta name="keywords" content="software arredamento, software arredamento interni, software per arredare casa, software per arredare, software arredare casa, software arredo casa">

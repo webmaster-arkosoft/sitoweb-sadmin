@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<title>Gestione utenti</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="../css/menu_responsive.css" media="screen">

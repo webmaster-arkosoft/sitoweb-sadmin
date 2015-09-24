@@ -1,11 +1,12 @@
 <html>
 	<head>
 		<title>Software Arredamento Galleria Pannello</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Pannello di controllo di Software Arredamento">
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css">

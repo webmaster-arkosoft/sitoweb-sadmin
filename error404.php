@@ -3,6 +3,7 @@
 	<head>
 		<title>Software Arredamento Pagina non trovata!</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="title" content="Software Arredamento pagina non trovata">
 		<meta name="description" content="La pagina che stai cercando non esiste su Software Arredamento.">
 		<meta name="keywords" content="pagina non trovata software arredamento, pagina 404 software arredamento, non trovata software arredamento">
