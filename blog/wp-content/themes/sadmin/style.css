@@ -456,7 +456,7 @@ a .pagelink {
 input { font-size: 12px; font-size: 0.75rem; padding: 5px; padding: 0.3125rem; border: 1px solid #d7d8d8; -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
 input[type=text] { width: 60%; }
 input[type=text]:hover, textarea:hover { border: 1px solid #BDD2E7; }
-input[type=submit] { min-width: 75px; color: #000000; padding: 5px 10px; padding: 0.3125rem 0.625rem; background: #BDD2E7; text-decoration: none; cursor: pointer; display: inline-block; -webkit-transition: all 0.1s linear; -moz-transition: all 0.1s linear; transition: all 0.1s linear; border: 0; }
+input[type=submit] { min-width: 65px; color: #000000; padding: 5px 10px; padding: 0.3125rem 0.625rem; background: #BDD2E7; text-decoration: none; cursor: pointer; display: inline-block; -webkit-transition: all 0.1s linear; -moz-transition: all 0.1s linear; transition: all 0.1s linear; border: 0; }
 input[type=submit]:hover { background: #2a2a2a;  color: #FFFFFF; }
 textarea { width: 96%; line-height: 1.5; padding: 5px; padding: 0.3125rem; border: 1px solid #d7d8d8; }
 

@@ -28,7 +28,7 @@ body{
 	left:50%;
 	margin-left:-200px;	
 	margin-top: 20px;
-	background: url('../immagini/sfondodemo.jpg') no-repeat;
+	background: url('http://www.softwarearredamento.com/immagini/sfondodemo.jpg') no-repeat;
 	width: 405px;
 	height: 510px;
 }
@@ -37,7 +37,7 @@ body{
 	left:50%;
 	margin-left:-200px;	
 	margin-top: 20px;
-	background: url('../immagini/sfondodemo1.jpg') no-repeat;
+	background: url('http://www.softwarearredamento.com/immagini/sfondodemo1.jpg') no-repeat;
 	width: 405px;
 	height: 510px;
 }
@@ -60,7 +60,7 @@ body{
 	float:left;  
 	width: 260px; 
 	height: 77px; 
-	background: url('../immagini/download.jpg') no-repeat;
+	background: url('http://www.softwarearredamento.com/immagini/download.jpg') no-repeat;
 	margin-bottom:20px;
 }
 .download a{
@@ -84,7 +84,7 @@ a.download:hover{
 	height: 50px;
 }
 .bottoneattivo{
-	background: #000 url('../immagini/bottone1.jpg') no-repeat;
+	background: #000 url('http://www.softwarearredamento.com/immagini/bottone1.jpg') no-repeat;
 	width: 128px;
 	height: 50px;
 	float: left;
@@ -99,7 +99,7 @@ a.download:hover{
 	text-decoration: none;
 }
 .bottone{
-	background: #000 url('../immagini/bottone.jpg') no-repeat;
+	background: #000 url('http://www.softwarearredamento.com/immagini/bottone.jpg') no-repeat;
 	width: 128px;
 	height: 50px;
 	float: left;
@@ -115,23 +115,23 @@ a.download:hover{
 }
 .bottone a:hover{
 	color: #fff;
-	background: #000 url('../immagini/bottone1.jpg') no-repeat;
+	background: #000 url('http://www.softwarearredamento.com/immagini/bottone1.jpg') no-repeat;
 }
 .space{
-	background: #000 url('../immagini/space.jpg') no-repeat;
+	background: #000 url('http://www.softwarearredamento.com/immagini/space.jpg') no-repeat;
 	width: 256px;
 	height: 50px;
 	float: left;
 }
 .logo{
-	background: #CCC url('../immagini/sfondologo.jpg') no-repeat;
+	background: #CCC url('http://www.softwarearredamento.com/immagini/sfondologo.jpg') no-repeat;
 	/*border: 1px solid #ff0000;*/
 	width: 225px;
 	height: 50px;
 	float:left;
 }
 .splash{
-	background: #000 url('../immagini/provasfondo-splash.jpg') no-repeat center left;
+	background: #000 url('http://www.softwarearredamento.com/immagini/provasfondo-splash.jpg') no-repeat center left;
 	width: 100%; 
 	/*border: 1px solid #ff0000; */
 	text-align: center;
@@ -229,11 +229,12 @@ a.download:hover{
 	height: auto;
 }
 .contenuto404{
-	width: 991px; 
+	width: 100%; 
 	/*border: 1px solid #CCC; */
 	text-align: center;
 	padding-top: 20px;
-	height: 300px;
+	height: auto;
+	float:left;
 }
 .contenuto404 a{
 	color: #000;
@@ -275,7 +276,7 @@ a.download:hover{
 }
 .descrizioneaggiorna{
 	/*border: 1px solid #00ff00;*/
-	background: #fff url('../immagini/sfondoaggiornamento.jpg') no-repeat;
+	background: #fff url('http://www.softwarearredamento.com/immagini/sfondoaggiornamento.jpg') no-repeat;
 	width: 225px;
 	height: 120px;
 	text-align: left;
@@ -290,7 +291,7 @@ a.download:hover{
 	margin-bottom: 20px;
 }
 .aggiorna{
-	background: #fff url('../immagini/sfondoaggiorna.jpg') no-repeat;
+	background: #fff url('http://www.softwarearredamento.com/immagini/sfondoaggiorna.jpg') no-repeat;
 	width: 145px;
 	height: 25px;
 	font-family: 'Open Sans';
@@ -434,7 +435,7 @@ a.download:hover{
 	width: 489px;
 	height: 480px;
 	float: left;
-	background: #fff url('../immagini/sfondo_puntiforza.jpg') no-repeat;
+	background: #fff url('http://www.softwarearredamento.com/immagini/sfondo_puntiforza.jpg') no-repeat;
 }
 #oscura {
 	background-color:#333;

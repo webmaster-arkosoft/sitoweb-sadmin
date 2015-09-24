@@ -1,9 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"  <?php language_attributes(); ?>>
 
 <head>
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 	<link rel="alternate" type="application/rss+xml" title="<?php printf(__('%s RSS Feed', 'yiw'), get_bloginfo('name')); ?>" href="<?php bloginfo('rss2_url'); ?>" />
     <link rel="alternate" type="application/atom+xml" title="<?php printf(__('%s Atom Feed', 'yiw'), get_bloginfo('name')); ?>" href="<?php bloginfo('atom_url'); ?>" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -45,15 +46,26 @@
 <body>
 	<?php wp_footer(); ?>
 <div class="generale">
-	<div class="header">
-		<!-- Header -->
-		<div class="menu">
-			<div class="bottone"><a id="csshome1" href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
+	<!-- Header -->
+	<div class="header" id="header">
+		<div class="textlogo">
+			<a id="cd-logo" href="#0"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+		</div>
+		<div class="menu" id="cd-top-nav">
+			<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
 			<div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html" class="bottone"><div>Acquista</div></a></div>
 			<div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html" class="bottone"><div>Galleria</div></a></div>
 			<div class="bottoneattivo"><a href="http://www.softwarearredamento.com/blog/" class="bottoneattivo"><div>Blog</div></a></div>
 			<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
-			<div class="bottone"><a href="http://www.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+			<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
 		</div>
 		<div class="logo">&nbsp;</div>
+		<div class="generale-corrente">
+			<div class="pag-corrente">
+				<span>Guida</span>
+			</div>
+		</div>
+		<a id="cd-menu-trigger" href="#0">
+			<span class="cd-menu-icon"></span>
+		</a>
 	</div>
