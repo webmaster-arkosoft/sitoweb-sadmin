@@ -40,7 +40,7 @@
 		position: relative;
 		/*background-color: #f5f4e9;*/
 		z-index: 1;
-		padding-top: 90px;
+		padding-top: 120px;
 		/* Force Hardware Acceleration in WebKit */
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
@@ -133,14 +133,14 @@
 		color: rgba(255, 255, 255, 0.7);
 	}
 	.generale-corrente{width:100%;height:auto;background:#000000;display:block;float:left;}
-	.pag-corrente{width:100%;height:40px;text-align:center;float:left;}
-	.pag-corrente span{font-size:18px;color:#ffffff;font-family: 'Open Sans';font-weight: bold;display:block;margin-top:8px;}
+	.pag-corrente{width:100%;height:70px;text-align:center;float:left;}
+	.pag-corrente span{font-size:35px;color:#ffffff;font-family: 'Open Sans';font-weight: bold;display:block;margin-top:8px;}
 	#cd-menu-trigger {
 		position: absolute;
 		right: 0px;
 		top: 50px;
-		height: 40px;
-		width: 50px;
+		height: 70px;
+		width: 80px;
 		background-color: #000000;
 		display:block;
 	}
@@ -164,7 +164,7 @@
 		-ms-transform: translateX(-50%) translateY(-50%);
 		-o-transform: translateX(-50%) translateY(-50%);
 		transform: translateX(-50%) translateY(-50%);
-		width: 20px;
+		width: 35px;
 		height: 3px;
 		background-color: #FFF;
 		/* these are the upper and lower lines in the menu menu */
@@ -178,10 +178,10 @@
 		left: 0;
 	}
 	#cd-menu-trigger .cd-menu-icon::before {
-		bottom: 6px;
+		bottom: 8px;
 	}
 	#cd-menu-trigger .cd-menu-icon::after {
-		top: 6px;
+		top: 8px;
 	}
 	#cd-menu-trigger.is-clicked .cd-menu-icon {
 		background-color: rgba(255, 255, 255, 0);
@@ -363,9 +363,9 @@
 	.boxs{width: 100%;height: auto;margin-bottom:20px;}
 	.contenutoagg{width: 100%;height: auto;float:left;}
 	.aggiornamenti{border: 1px solid #CCC;width: 100%;height: auto;float:left;}
-	.aggiorna{background: none;margin:5px 0px;padding:0px;border-right:1px solid #cccccc;}
-	.testoaggiorna{height: auto;}
-	.titoloaggiorna{width: 100%;height: auto;}
+	.aggiorna{background: none;margin:5px 0px;padding:0px;border-right:1px solid #cccccc;font-size:22px;}
+	.testoaggiorna{height: auto; font-size:20px;}
+	.titoloaggiorna{width: 100%;height:auto;font-size:20px;}
 	.divaggiornamenti{width: 49%;height: auto;}
 	.descrizioneaggiorna{background: none;width: 100%;height: auto;border-right:1px solid #cccccc;}
 	.boxd{width: 100%;height: auto;background: #E5F4F9 url('../immagini/sfondo_puntiforza2.jpg') repeat-x center top;border:1px solid #cccccc;margin-bottom:20px;}
@@ -431,6 +431,7 @@
 @media only screen and (max-width: 750px) {
 	/* Style principale */
 	.testo{width: 100%;}
+	.download{float:none;  margin:20px auto;}
 	.motto{width: 100%;padding-left:10px;}
 	.motto h2{font-size: 30px;}
 	/* box madre */
