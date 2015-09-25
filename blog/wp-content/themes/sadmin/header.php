@@ -48,7 +48,7 @@
 
 <body>
 	<?php wp_footer(); ?>
-<div class="generale">
+<div class="generale .overflow-hidden">
 	<!-- Header -->
 	<div class="header" id="header">
 		<div class="textlogo">
@@ -65,7 +65,7 @@
 		<div class="logo"><a href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/sfondologo.jpg" alt=""></a></div>
 		<div class="generale-corrente">
 			<div class="pag-corrente">
-				<span>Guida</span>
+				<span>Blog</span>
 			</div>
 		</div>
 		<a id="cd-menu-trigger" href="#0">

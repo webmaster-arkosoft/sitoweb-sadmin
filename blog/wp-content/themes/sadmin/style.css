@@ -6,11 +6,13 @@ body{
 	background-color: #F4F2ED;
 }
 a img{border:0px;}
+a {text-decoration: none;}
 .generale{
 	width:100%%;
 	height:auto;
 	max-width:995px;
 	margin:0px auto;
+	overflow:hidden;
 }	
 #FrogJSCredit{
 	display: none;
@@ -96,7 +98,7 @@ a img{border:0px;}
 }
 .articolo #titolo{
 	color: #333333;
-	font-size: 25px;
+	font-size: 19px;
 	font-weight: normal;
 }
 #titolo h1{
@@ -120,9 +122,19 @@ a img{border:0px;}
 	text-align: center;
 	margin-top: 20px;
 }
+#divimmagine img{
+	max-width:100%;
+	height:auto;
+	width:inherit;
+}
 #testo-articolo{
 	margin-top: 27px;
 	color: #444444;
+}
+#testo-articolo img{
+	max-width:100%;
+	height:auto;
+	width:inherit;
 }
 #colonna-sinistra{
 	width: 670px;

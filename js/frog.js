@@ -160,8 +160,10 @@ Frog.prototype = {
 		new Effect.Fade('FrogJSMainContainer', { duration:0.5, afterFinish: function(){ showMainImage(); } });
 		function showMainImage(){
 			$('FrogJSImage').style.display = 'block';
+			$('FrogJSImage').style.width = '100%';
 			$('FrogJSImage').src = imageArray[imageNum]['full'];
-			$('FrogJSMainContainer').style.width = width+'px';
+			$('FrogJSMainContainer').style.maxWidth = width+'px';
+			$('FrogJSMainContainer').style.width = '98%';
 			$('FrogJSCredit').innerHTML = imageArray[imageNum]['credit'];
 			$('FrogJSCaption').innerHTML = imageArray[imageNum]['caption'];
 			new Effect.Appear('FrogJSMainContainer', { duration: 0.5 });

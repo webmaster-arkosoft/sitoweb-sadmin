@@ -18,9 +18,6 @@
 		/* you need to set this to assign to the main element a min height of 100% */
 		height: 100%;
 	}
-	a {
-		text-decoration: none;
-	}
 	/* -------------------------------- 
 	Modules - reusable parts of our design
 	-------------------------------- */
@@ -43,7 +40,7 @@
 		position: relative;
 		/*background-color: #f5f4e9;*/
 		z-index: 1;
-		padding-top: 87px;
+		padding-top: 90px;
 		/* Force Hardware Acceleration in WebKit */
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
@@ -136,13 +133,13 @@
 		color: rgba(255, 255, 255, 0.7);
 	}
 	.generale-corrente{width:100%;height:auto;background:#000000;display:block;float:left;}
-	.pag-corrente{width:100%;height:35px;text-align:center;float:left;}
-	.pag-corrente span{font-size:18px;color:#ffffff;font-family: 'Open Sans';font-weight: bold;display:block;margin-top:5px;}
+	.pag-corrente{width:100%;height:40px;text-align:center;float:left;}
+	.pag-corrente span{font-size:18px;color:#ffffff;font-family: 'Open Sans';font-weight: bold;display:block;margin-top:8px;}
 	#cd-menu-trigger {
 		position: absolute;
 		right: 0px;
 		top: 50px;
-		height: 35px;
+		height: 40px;
 		width: 50px;
 		background-color: #000000;
 		display:block;
@@ -167,8 +164,8 @@
 		-ms-transform: translateX(-50%) translateY(-50%);
 		-o-transform: translateX(-50%) translateY(-50%);
 		transform: translateX(-50%) translateY(-50%);
-		width: 18px;
-		height: 2px;
+		width: 20px;
+		height: 3px;
 		background-color: #FFF;
 		/* these are the upper and lower lines in the menu menu */
 	}
@@ -181,10 +178,10 @@
 		left: 0;
 	}
 	#cd-menu-trigger .cd-menu-icon::before {
-		bottom: 5px;
+		bottom: 6px;
 	}
 	#cd-menu-trigger .cd-menu-icon::after {
-		top: 5px;
+		top: 6px;
 	}
 	#cd-menu-trigger.is-clicked .cd-menu-icon {
 		background-color: rgba(255, 255, 255, 0);
@@ -375,8 +372,8 @@
 	.puntiforza {float: left;height: auto;padding-top:0px;width: 100%;}
 	.iconapuntiforza{float:left;height:auto;}
 	.domandapuntiforza {height: auto;width:auto;padding-top:15px;}
-	.rispostapuntiforza{width: 95%;height: auto;padding-top: 0px;font-size:13px;float:left;}
-	.linkpuntiforza{margin:5px 0px;width:170px;height:auto;float:right;}
+	.rispostapuntiforza{width: 95%;height: auto;padding-top: 0px;font-size:16px;float:left;}
+	.linkpuntiforza{margin:5px 0px;width:185px;height:auto;float:right;}
 	/* footer */
 	.footer{height: auto;float:none;}
 	.box{width: 50%;height:auto;min-height:230px;}
@@ -424,6 +421,11 @@
 	.contenutoprefazione{
 		width: 100%;
 		height: auto;
+	}
+	/* Carrello */
+	.bottoneaggcarrello button{
+		font-size: 13px;
+		margin-left: 0em;
 	}
 }
 @media only screen and (max-width: 750px) {

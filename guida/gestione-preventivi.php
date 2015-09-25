@@ -13,7 +13,7 @@
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="#0"><img src="../immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="../immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
@@ -193,12 +193,12 @@
 			</div>
 			<div id="cd-lateral-nav">
 				<ul class="cd-navigation cd-single-item-wrapper">
-					<li><a href="#0">Home</a></li>
-					<li><a href="#0">Acquista</a></li>
-					<li><a href="#0">Galleria</a></li>
-					<li><a href="#0">Blog</a></li>
-					<li><a class="current" href="#0">Guida</a></li>
-					<li><a href="#0">Supporto</a></li>
+					<li><a href="http://www.softwarearredamento.com">Home</a></li>
+					<li><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></li>
+					<li><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></li>
+					<li><a href="http://www.softwarearredamento.com/blog/">Blog</a></li>
+					<li><a class="current" href="http://www.softwarearredamento.com/guida/index.html">Guida</a></li>
+					<li><a href="http://ticket.arkosoft.it">Supporto</a></li>
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>

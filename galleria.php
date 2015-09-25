@@ -1,3 +1,4 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<title>Software Arredamento Galleria Pannello</title>
@@ -35,7 +36,7 @@
 				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
-						<span>Acquista</span>
+						<span>Galleria</span>
 					</div>
 				</div>
 				<a id="cd-menu-trigger" href="#0">

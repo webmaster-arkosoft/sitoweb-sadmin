@@ -6,6 +6,7 @@ body{
 	background-color: #F4F2ED;
 }
 a img{border:0px;}
+a {text-decoration: none;}
 .generale{
 	width:99%;
 	height:auto;
