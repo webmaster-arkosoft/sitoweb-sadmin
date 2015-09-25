@@ -67,6 +67,7 @@ a {text-decoration: none;}
 }
 .download a{
 	text-decoration: none;
+	display:block;
 }
 a.download:hover{
 	background-position:0 -77px;
