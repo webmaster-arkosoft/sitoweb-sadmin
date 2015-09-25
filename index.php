@@ -29,7 +29,7 @@
 					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
 					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
 				</div>
-				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt="Logo S-admin" width="225" height="50"></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Home</span>
@@ -91,8 +91,8 @@
 							<div class="domandapuntiforza">Che differenza c'&egrave; tra un <u>Sito Normale</u> e S-Admin ?</div>
 						</div>
 						<div class="rispostapuntiforza">
-							I classici siti di Arredamento sono realizzati con tecniche caratteristiche di animazione, realizzando una sorta di vetrina virtuale, nella quale si d&agrave; una maggiore importanza all'aspetto grafico del Sito, pi&ugrave; che alla sua funzionalit&agrave;.		<br /><br />		
-							S-Admin &egrave; una piattaforma sviluppata per la gestione completa del tuo sito di Arredamento. Rispetto a un Sito Normale ti consentir&agrave; di gestire infiniti prodotti, di identificarne le marche, e di associare delle propriet&agrave; a ogni singolo prodotto. <br /><br />
+							I classici siti di Arredamento sono realizzati con tecniche caratteristiche di animazione, realizzando una sorta di vetrina virtuale, nella quale si d&agrave; una maggiore importanza all'aspetto grafico del Sito, pi&ugrave; che alla sua funzionalit&agrave;.<br /><br />		
+							S-Admin &egrave; una piattaforma sviluppata per la gestione completa del tuo sito di Arredamento. Rispetto a un Sito Normale ti consentir&agrave; di gestire infiniti prodotti, di identificarne le marche, e di associare delle propriet&agrave; a ogni singolo prodotto.<br /><br />
 							Il modulo per l'inserimento &egrave; stato ideato su misura per i negozi di arredamento e i mobilifici, quindi consente di inserire oltre al nome del mobile e alla sua descrizione le sue caratteristiche quali l'altezza, la lunghezza, la profondit&agrave;, la tipologia di legno utilizzata per fabbricare il mobile, il suo colore, l'anno di creazione, la laccatura, ecc.<br /><br />
 							Per apprezzare al meglio le caratteristiche di S-Admin prova subito a caricare un prodotto.<br />
 							<div class="linkpuntiforza">

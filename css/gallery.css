@@ -35,8 +35,10 @@
 		min-height:auto;
 	}
 	#FrogJSrightThumb1{
-		top:0px !important;
-		right:auto!important;
+		left: 50% !important;
+		margin-left: -50px !important;
+		margin-top: 0 !important;
+		top: 0 !important;
 	}
 	#FrogJSleftThumb1{
 		top:100%!important;

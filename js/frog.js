@@ -93,7 +93,7 @@ Frog.prototype = {
 		rThumb1.style.display = 'none';
 		rThumb1.style.position = 'absolute';
 		rThumb1.style.top = thumbTop;
-		rThumb1.style.right = '0';
+		rThumb1.style.left = 'auto';
 		rThumb1.style.cursor = 'pointer';
 		ribbit.appendChild(rThumb1);
 		
