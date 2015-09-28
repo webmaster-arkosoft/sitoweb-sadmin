@@ -5,7 +5,7 @@
 	if(isset($_POST['prodotto']) and strlen($_POST['prodotto'])>0 and $_POST['settasession']=="true"){ include "insercarrellofatt.php"; }	
 
 		
-	$_SESSION['invio']="0";
+	$_SESSION['invio']="0";	
 	
 	$tipoattivita=1;
 		
@@ -56,7 +56,7 @@
 <?php			for($a=0; $a<count($_SESSION['carrello']); $a++){
 ?>					<div class="boxsingolop">
 						<div class="imgsoftware">
-							<img src="<?php print $_SESSION['carrello'][$a][1]; ?>" alt="">
+							<img src="<?php print $_SESSION['carrello'][$a][1]; ?>">
 						</div>
 						<div class="titolosoftware">
 							<div>&nbsp;</div>
@@ -95,7 +95,7 @@
 ?>
 					<div class="boxsingolop1">
 						<div class="imgsoftwaresp">
-							<img src="carrello/immagini/corriere.jpg" alt="">
+							<img src="carrello/immagini/corriere.jpg">
 						</div>
 						<div class="titolosoftwaresp">
 							<div>&nbsp;</div>
@@ -115,8 +115,8 @@
 	<div class="divpagamento">
 		<div class="iltuoordine">SCEGLI IL METODO DI PAGAMENTO</div>
 		<div class="tipopagamento">
-			<div class="sceltapagamento"><input type="radio" name="tipopagamento" id="tipopagamento" value="1" <? if(!isset($tipopagamento) or $tipopagamento=="1"){ print "checked=\"checked\";"; } ?> >Pagamento tramite Paypal <img src="/carrello/immagini/pagamento-paypal.jpg" alt=""></div>
-			<div class="sceltapagamento"><input type="radio" name="tipopagamento" id="tipopagamento" value="2" <? if(isset($tipopagamento) and $tipopagamento=="2"){ print "checked=\"checked\";"; } ?> >Pagamento tramite Bonifico <img src="/carrello/immagini/pagamento-bonifico.jpg" alt=""></div>
+			<div class="sceltapagamento"><input type="radio" name="tipopagamento" id="tipopagamento" value="1" <? if(!isset($tipopagamento) or $tipopagamento=="1"){ print "checked=\"checked\";"; } ?> >Pagamento tramite Paypal <img src="/carrello/immagini/pagamento-paypal.jpg"/></div>
+			<div class="sceltapagamento"><input type="radio" name="tipopagamento" id="tipopagamento" value="2" <? if(isset($tipopagamento) and $tipopagamento=="2"){ print "checked=\"checked\";"; } ?> >Pagamento tramite Bonifico <img src="/carrello/immagini/pagamento-bonifico.jpg"/></div>
 		</div>
 	</div>	
 	
@@ -136,52 +136,52 @@
 				</div>
 
 				<div id="ragionesociale" <? if($tipoattivita=="3"){ print "class=\"campoacquistanascosto\""; }else{ print "class=\"campoacquista\""; } ?> ><div>Ragione Sociale*</div></div>
-				<div id="ragionesociale1" <? if($tipoattivita=="3"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?> ><input type="text" name="ragione" id="ragione" value="<?php print $ragione; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div id="ragionesociale1" <? if($tipoattivita=="3"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?> ><input type="text" name="ragione" id="ragione" value="<?php print $ragione; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 
 				<div class="campoacquista"><div>Nome*</div></div>
-				<div class="inputacquista"><input type="text" name="nome" id="nome" value="<?php print $nome; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div class="inputacquista"><input type="text" name="nome" id="nome" value="<?php print $nome; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 
 				<div class="campoacquista"><div>Cognome*</div></div>
-				<div class="inputacquista"><input type="text" name="cognome" id="cognome" value="<?php print $cognome; ?>"   Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div class="inputacquista"><input type="text" name="cognome" id="cognome" value="<?php print $cognome; ?>"   Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 				
 				<div class="campoacquista"><div>Indirizzo*</div></div>
-				<div class="inputacquista"><input type="text" name="indirizzo" id="indirizzo" value="<?php print $indirizzo; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div class="inputacquista"><input type="text" name="indirizzo" id="indirizzo" value="<?php print $indirizzo; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 				
 				<div class="campoacquista">
 					<div>Cap*</div>
 				</div>
 				<div class="inputacquista1">
-					<input type="text" name="cap" id="cap" value="<?php print $cap; ?>" class="cap" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);">
-					<div class="campo2">Citt&agrave;* <input type="text" name="citta" id="citta" value="<?php print $citta; ?>" class="citta" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
-					<div class="campo3">Prov* <input type="text" name="prov" id="prov" value="<?php print $prov; ?>" class="prov" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+					<input type="text" name="cap" id="cap" value="<?php print $cap; ?>" class="cap" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/>
+					<div class="campo2">Citt&agrave;* <input type="text" name="citta" id="citta" value="<?php print $citta; ?>" class="citta" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
+					<div class="campo3">Prov* <input type="text" name="prov" id="prov" value="<?php print $prov; ?>" class="prov" Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 				</div>
 				
 				<div id="piva" <? if($tipoattivita=="3"){ print "class=\"campoacquistanascosto\""; }else{ print "class=\"campoacquista\""; } ?> ><div>Partita Iva*</div></div>
-				<div id="piva1" <? if($tipoattivita=="3"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?> ><input type="text" name="piva" id="piva" value="<?php print $piva; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div id="piva1" <? if($tipoattivita=="3"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?> ><input type="text" name="piva" id="piva" value="<?php print $piva; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 
 				<div id="codfiscale" <? if($tipoattivita=="1"){ print "class=\"campoacquistanascosto\""; }else{ print "class=\"campoacquista\""; } ?> ><div>Codice Fiscale*</div></div>
-				<div id="codfiscale1" <? if($tipoattivita=="1"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?>><input type="text" name="codfiscale" id="codfiscale" value="<?php print $codfiscale; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div id="codfiscale1" <? if($tipoattivita=="1"){ print "class=\"inputacquistanascosto\""; }else{ print "class=\"inputacquista\""; } ?>><input type="text" name="codfiscale" id="codfiscale" value="<?php print $codfiscale; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 
 
 				<div class="campoacquista"><div>Telefono*</div></div>
-				<div class="inputacquista"><input type="text" name="tel" id="tel" value="<?php print $tel; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>
+				<div class="inputacquista"><input type="text" name="tel" id="tel" value="<?php print $tel; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>
 
 				<div class="campoacquista"><div>Email*</div></div>
-				<div class="inputacquista"><input type="text" name="email" id="email" value="<?php print $email; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"></div>	
+				<div class="inputacquista"><input type="text" name="email" id="email" value="<?php print $email; ?>"  Onclick="javascript: svuota(this.value);" onkeypress="javascript: svuota(this.value);"/></div>	
 
 				<div class="campoacquista"><div>Legge privacy</div></div>
 				<div class="textareaacquista">
 					<textarea name="legge" id="legge" cols="35" rows="7" READONLY>Ai sensi dell'art. 13 del D.Lgs 196/2003, i dati personali forniti ad Arkosoft saranno trattati in modo lecito, secondo correttezza e nell'assoluto rispetto della normativa vigente in materia di privacy, anche con l'ausilio di mezzi elettronici o comunque automatizzati che consentano la conservazione protetta degli stessi. Sempre per le medesime finalit&agrave;, i dati personali possono venire a conoscenza dei dipendenti addetti all'Unit&agrave;  di Arkosoft e/o di terzi che abbiano rapporti di servizio con la stessa, preposti al trattamento medesimo, in qualit&agrave;  d'Incaricati del trattamento. I medesimi dati personali, previo suo specifico consenso, potranno anche essere utilizzati per finalit&agrave;  di marketing (esempio invio di materiale pubblicitario omaggi e buoni sconti, indagini di mercato) da parte di Arkosoft. Tale consenso &egrave; facoltativo. Lei, quale soggetto interessato, ha la facolt&agrave;  di esercitare i diritti previsti dall'art. 7 del D.Lgs. 196/2003 ed, in particolare, ha il diritto di conoscere in ogni momento quali sono i suoi dati e come vengono utilizzati; ha anche il diritto di farli aggiornare, integrare, rettificare o cancellare, chiederne il blocco ed opporsi al loro trattamento.
 		La informiamo, inoltre, che il titolare del trattamento dei dati &egrave; Arkosoft, nella persona del Presidente del Consiglio di Amministrazione, domiciliato presso la sede della societ&agrave;  in via Casterllo 54 a San Pancrazio Salentino (Br) ,mentre il responsabile del trattamento dei dati &egrave; il Responsabile vendite clienti della divisione mercato di Arkosoft, domiciliato presso la sede della societ&agrave;  in via Castello,54 a San Pancrazio Salentino (Br).
 					</textarea>
-					<br>
+					<br />
 				</div>
 				
 				<div class="campoacquista"><div>&nbsp;</div></div>
 				<div class="checkboxacquista">
 					<input type="checkbox" name="acconsento" id="acconsento" checked="checked"> Dichiaro di aver letto la Legge sulla Privacy
 				</div>
-				<input type="hidden" name="idcoupon" id="idcoupon" value="<?php print $_POST['idcoupon']; ?>">
+				<input type="hidden" name="idcoupon" id="idcoupon" value="<?php print $_POST['idcoupon']; ?>" />
 			</div>	
 		</div>
 	</div>
@@ -193,10 +193,13 @@
 						<a class="bottonetornacarrello" href="<? print $primapagina.$codicecoupon; ?>">&nbsp;</a>
 					</div>
 				</div>
-				<input type="image" src="/carrello/immagini/bottone-avanti.jpg" name="avanti" id="avanti" src="" value="1" Onmouseover="javascript: cambiabottoneavanti();" Onmouseout="javascript: cambiabottoneavanti1();">
+				<input type="image" src="/carrello/immagini/bottone-avanti.jpg" name="avanti" id="avanti" src="" value="1" Onmouseover="javascript: cambiabottoneavanti();" Onmouseout="javascript: cambiabottoneavanti1();" />
 			</div>
 	</form>
 <?php	}
 ?>	
 
-</div>
+</div>	
+
+
+			

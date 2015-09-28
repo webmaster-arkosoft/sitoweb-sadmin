@@ -29,39 +29,48 @@
 			<div class="cancellalicenza">&nbsp;</div>
 		</div>
 		<div class="descrizione">
-<?php		if(count($_SESSION['carrello'])==0){
-?>				<div class="nessunprodotto"><div>Nessun prodotto inserito nel carrello!</div></div>
-<?php		}else{
-				for($a=0; $a<count($_SESSION['carrello']);$a++){
-	?>				<script>
-						numeroelementi=numeroelementi+1;
-						prodotticarrello.push('<?php print $_SESSION['carrello'][$a][0]; ?>');
-					</script>
-					<div class="dnomesoftware">
-						<div class="imgdnomesoftware"><img id="tipolicenza" src="<?php print $_SESSION['carrello'][$a][1]; ?>"></div>
-						<div class="titolodnomesoftware"><?php print $_SESSION['carrello'][$a][2]; ?></div>
-						<input type="hidden" name="peso<?php print $_SESSION['carrello'][$a][0]; ?>" id="peso<?php print $_SESSION['carrello'][$a][0]; ?>" value="<?php print ($_SESSION['carrello'][$a][7]*$_SESSION['carrello'][$a][4]); ?>">
-					</div>
+<?php	if(count($_SESSION['carrello'])==0){
+?>			<div class="nessunprodotto"><div>Nessun prodotto inserito nel carrello!</div></div>
+<?php	}else{
+			for($a=0; $a<count($_SESSION['carrello']);$a++){
+?>				<script>
+					numeroelementi=numeroelementi+1;
+					prodotticarrello.push('<?php print $_SESSION['carrello'][$a][0]; ?>');
+				</script>
+				<div class="dnomesoftware">
+					<div class="imgdnomesoftware"><img id="tipolicenza" src="<?php print $_SESSION['carrello'][$a][1]; ?>"></div>
+ 					<div class="titolodnomesoftware"><?php print $_SESSION['carrello'][$a][2]; ?></div>
+					<input type="hidden" name="peso<?php print $_SESSION['carrello'][$a][0]; ?>" id="peso<?php print $_SESSION['carrello'][$a][0]; ?>" value="<?php print ($_SESSION['carrello'][$a][7]*$_SESSION['carrello'][$a][4]); ?>">
+				</div>
 					<div class="dconsegna">
 						<div>
-							<img src="carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg">
+							<img src="carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg" />
 						</div>
 					</div>
 					<div class="dquantita">
 						<form action="<? print $primapagina; ?>" method="POST" >
 							<div class="qntinput">
-								<input id="quantita<?php print $_SESSION['carrello'][$a][0]; ?>" type="text" name="quantita" id="quantita" value="<?php print $_SESSION['carrello'][$a][4]; ?>">
+								<input id="quantita<?php print $_SESSION['carrello'][$a][0]; ?>" type="text" name="quantita" id="quantita" value="<?php print $_SESSION['carrello'][$a][4]; ?>" />
 							</div>
 							<div class="cambiaqnt">
-								<input type="Submit" name="cambio" id="cambio" class="bottonecambio" value="+">
-								<input type="Submit" name="cambio" id="cambio" class="bottonecambio1" value="-">
+								<input type="Submit" name="cambio" id="cambio" class="bottonecambio" value="+" />
+								<input type="Submit" name="cambio" id="cambio" class="bottonecambio1" value="-" />
 							</div>
-							<input type="hidden" name="elemento" id="elemento" value="<?php print $a; ?>">
-							<input type="hidden" name="idcouponq<?php print $a; ?>" id="idcouponq<?php print $a; ?>" value="">
-							<input type="hidden" name="elemcorrente" id="elemcorrente" value="<?php print $_SESSION['carrello'][$a][0]; ?>">
+							<input type="hidden" name="elemento" id="elemento" value="<?php print $a; ?>" />
+							<input type="hidden" name="idcouponq<?php print $a; ?>" id="idcouponq<?php print $a; ?>" value="" />
+							<input type="hidden" name="elemcorrente" id="elemcorrente" value="<?php print $_SESSION['carrello'][$a][0]; ?>" />
 						</form>
 					</div>
-					<div class="ddurata"><div><?php print $_SESSION['carrello'][$a][5]; ?></div></div>
+					<div class="ddurata">
+						<div>
+<?php 
+								if($_SESSION['carrello'][$a][5]>0){
+									print $_SESSION['carrello'][$a][5];
+								}else{
+									print "-";	
+								}
+?>						</div>
+					</div>
 					<div class="dprezzounitario" id="<?php print $_SESSION['carrello'][$a][0]; ?>gena">
 						<div id="<?php print $_SESSION['carrello'][$a][0]; ?>prea" class="prezzonormale">
 							<?php print "&euro; ".decimali($_SESSION['carrello'][$a][6]); ?>
@@ -78,23 +87,23 @@
 					</div>
 					<div class="dcancellalicenza">
 						<form action="<? print $primapagina; ?>" method="POST" >
-							<div><input type="Submit" name="elimina" id="elimina" class="bottoneelimina" value="<?php print $a; ?>"></div>
-							<input type="hidden" name="idcoupone<?php print $a; ?>" id="idcoupone<?php print $a; ?>" value="">
-							<input type="hidden" name="elemcorrente" id="elemcorrente" value="<?php print $_SESSION['carrello'][$a][0]; ?>">
+							<div><input type="Submit" name="elimina" id="elimina" class="bottoneelimina" value="<?php print $a; ?>" /></div>
+							<input type="hidden" name="idcoupone<?php print $a; ?>" id="idcoupone<?php print $a; ?>" value="" />
+							<input type="hidden" name="elemcorrente" id="elemcorrente" value="<?php print $_SESSION['carrello'][$a][0]; ?>" />
 						</form>	
 					</div>
 <?php				//controllo il pese delle spese di spedizione
-				if(strlen($_SESSION['carrello'][$a][7])>0){
-					$spesespedizione=$spesespedizione+($_SESSION['carrello'][$a][7]*$_SESSION['carrello'][$a][4]);
-				}
-				
-				//moltiplico il prezzo senza iva per le quantità
-				$totale=$totale+($_SESSION['carrello'][$a][6]*$_SESSION['carrello'][$a][4]);
+					if(strlen($_SESSION['carrello'][$a][7])>0){
+						$spesespedizione=$spesespedizione+($_SESSION['carrello'][$a][7]*$_SESSION['carrello'][$a][4]);
+					}
+					
+					//moltiplico il prezzo senza iva per le quantità
+					$totale=$totale+($_SESSION['carrello'][$a][6]*$_SESSION['carrello'][$a][4]);
 			}
 		}
 		
 		//include config
-		include "config.php";
+		include "configcar.php";
 		//connessione al database
 		$db = mysql_connect($host, $user, $psw) or die ("Errore nella connessione.");
 		//selezione del database
@@ -125,7 +134,7 @@
 		//Se c'è almeno un prodotto nel carrello
 		if(count($_SESSION['carrello'])>0){
 ?>			<div class="coupon">
-				<div class="testocoupon"><img src="http://www.ristomanager.it/carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
+				<div class="testocoupon"><img src="carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
 				<div class="inputcoupon"><input type="text" name="idcoupon" id="idcoupon" value="" onfocus="javascript: coupon(this);" onkeyup="javascript: coupon(this);"></div>
 				<div id="success" class="successoff">&nbsp;</div>
 			</div>
@@ -141,7 +150,7 @@
 				<div id="totaleparzialediv">
 					&euro; <?php if(strlen($totale)>0){ print decimali($totale); }else{ print "0.00"; } ?>
 				</div>
-				<input type="hidden" name="totaleparziale" id="totaleparziale" value="<?php if(strlen($totale)>0){ print decimali($totale); }else{ print "0.00"; } ?>">
+				<input type="hidden" name="totaleparziale" id="totaleparziale" value="<?php if(strlen($totale)>0){ print decimali($totale); }else{ print "0.00"; } ?>" />
 			</div>
 			<div class="divimponibile2">
 				&nbsp;
@@ -154,7 +163,7 @@
 				<div id="ivacarrellodiv">
 					&euro; <?php if(strlen($totale)>0){ print decimali((($totale*22)/100)); }else{ print "0.00"; } ?>
 				</div>
-				<input type="hidden" name="ivacarrello" id="ivacarrello" value="<?php if(strlen($totale)>0){ print decimali((($totale*22)/100)); }else{ print "0.00"; } ?>">
+				<input type="hidden" name="ivacarrello" id="ivacarrello" value="<?php if(strlen($totale)>0){ print decimali((($totale*22)/100)); }else{ print "0.00"; } ?>" />
 			</div>
 			<div class="divimponibile2">
 				&nbsp;
@@ -176,7 +185,7 @@
 			<div id="totalefinalediv">
 				Totale (iva inclusa) &euro; <?php if(strlen($totale)>0){ print decimali(($totale+(($totale*22)/100))+$spese); }else{ print "0.00"; } ?>
 			</div>
-			<input type="hidden" name="totalefinale" id="totalefinale" value="<?php if(strlen($totale)>0){ print decimali(($totale+(($totale*22)/100))+$spese); }else{ print "0.00"; } ?>">
+			<input type="hidden" name="totalefinale" id="totalefinale" value="<?php if(strlen($totale)>0){ print decimali(($totale+(($totale*22)/100))+$spese); }else{ print "0.00"; } ?>" />
 		</div>
 	</div>
 	<div class="bottoni">
@@ -186,7 +195,7 @@
 		</div>
 		<span>&nbsp;</span>
 		<div class="bottoneconferma">
-			<input type="Submit" class="bottoneconferma" name="cmdconferma" id="cmdconferma">
+			<input type="Submit" class="bottoneconferma" name="cmdconferma" id="cmdconferma"/>
 		</div>	
 	</div>
 	
