@@ -28,9 +28,7 @@
 		text-indent: 100%;
 		white-space: nowrap;
 	}
-	.overflow-hidden {
-		overflow: hidden;
-	}
+	.overflow-hidden {overflow: hidden;}
 	/* -------------------------------- 
 	Main components 
 	-------------------------------- */
@@ -59,11 +57,7 @@
 		-o-transform: translateX(-260px);
 		transform: translateX(-260px);
 	}
-	.textlogo{
-		width:100%;
-		height:auto;
-		background:#ffffff;
-	}
+	.textlogo{width:100%;height:auto;background:#ffffff;}
 	#header {
 		position: fixed;
 		top: 0;
@@ -91,34 +85,13 @@
 		-o-transform: translateX(-260px);
 		transform: translateX(-260px);
 	}
-	#header.is-fixed {
-		position: fixed;
-	}
-	#cd-logo {
-		display: block;
-	}
-	#cd-logo img {
-		display: block;
-		margin:0px auto;
-	}
-	.logo{
-		display:none;
-	}
-	#cd-top-nav {
-		position: absolute;
-		top: 0;
-		right: 120px;
-		height: 100%;
-		display: none;
-	}
-	#cd-top-nav ul {
-		height: 100%;
-		padding-top: 18px;
-	}
-	#cd-top-nav li {
-		display: inline-block;
-		margin-right: 1em;
-	}
+	#header.is-fixed {position: fixed;}
+	#cd-logo {display: block;}
+	#cd-logo img {display: block;margin:0px auto;}
+	.logo{display:none;}
+	#cd-top-nav {position: absolute;top: 0;right: 120px;height: 100%;display: none;}
+	#cd-top-nav ul {height: 100%;padding-top: 18px;}
+	#cd-top-nav li {display: inline-block;margin-right: 1em;}
 	#cd-top-nav a {
 		display: inline-block;
 		padding: .5em;
@@ -126,12 +99,8 @@
 		text-transform: uppercase;
 		font-weight: 600;
 	}
-	#cd-top-nav a.current {
-		background-color: #242e30;
-	}
-	.no-touch #cd-top-nav a:hover {
-		color: rgba(255, 255, 255, 0.7);
-	}
+	#cd-top-nav a.current {background-color: #242e30;}
+	.no-touch #cd-top-nav a:hover {color: rgba(255, 255, 255, 0.7);}
 	.generale-corrente{width:100%;height:auto;background:#000000;display:block;float:left;}
 	.pag-corrente{width:100%;height:50px;text-align:center;float:left;}
 	.pag-corrente span{font-size:25px;color:#ffffff;font-family: 'Open Sans';font-weight: bold;display:block;margin-top:8px;}
@@ -177,18 +146,10 @@
 		background-color: inherit;
 		left: 0;
 	}
-	#cd-menu-trigger .cd-menu-icon::before {
-		bottom: 8px;
-	}
-	#cd-menu-trigger .cd-menu-icon::after {
-		top: 8px;
-	}
-	#cd-menu-trigger.is-clicked .cd-menu-icon {
-		background-color: rgba(255, 255, 255, 0);
-	}
-	#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {
-		background-color: white;
-	}
+	#cd-menu-trigger .cd-menu-icon::before {bottom: 8px;}
+	#cd-menu-trigger .cd-menu-icon::after {top: 8px;}
+	#cd-menu-trigger.is-clicked .cd-menu-icon {background-color: rgba(255, 255, 255, 0);}
+	#cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {background-color: white;}
 	#cd-menu-trigger.is-clicked .cd-menu-icon::before {
 		bottom: 0;
 		-webkit-transform: rotate(45deg);
@@ -236,27 +197,16 @@
 		padding:0px;
 		list-style:none;
 	}
-	#cd-lateral-nav .cd-navigation li{
-		font-size:18px;
-		font-weight:bold;
-	}
-	#cd-lateral-nav .sub-menu {
-		padding: 0 10px 20px 15px;
-		display: none;
-	}
+	#cd-lateral-nav .cd-navigation li{font-size:18px;font-weight:bold;}
+	#cd-lateral-nav .sub-menu {padding: 0 10px 20px 15px;display: none;}
 	#cd-lateral-nav a {
 		display: block;
 		line-height: 2em;
 		padding: 0 16px 0 32px;
 		color:#000000;
 	}
-	#cd-lateral-nav a.current {
-		background-color: #000000;
-		color: #FFF;
-	}
-	#cd-lateral-nav a:hover {
-		color: #FFF;
-	}
+	#cd-lateral-nav a.current {background-color: #000000;color: #FFF;}
+	#cd-lateral-nav a:hover {color: #FFF;}
 	#cd-lateral-nav.lateral-menu-is-open {
 		-webkit-transform: translateX(0);
 		-moz-transform: translateX(0);
@@ -307,14 +257,8 @@
 		-o-transform: translateY(-50%) rotate(90deg);
 		transform: translateY(-50%) rotate(90deg);
 	}
-	#cd-lateral-nav .socials {
-		padding: 0 32px;
-	}
-	#cd-lateral-nav .socials:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+	#cd-lateral-nav .socials {padding: 0 32px;}
+	#cd-lateral-nav .socials:after {content: "";display: table;clear: both;}
 	#cd-lateral-nav .socials a {
 		height: 32px;
 		width: 32px;
@@ -410,23 +354,11 @@
 	/* Galleria */
 	.descgalleria{width: 100%;height: auto;}
 	/*PAGINA GUIDA*/
-	.contenutoguida{
-		width: 100%; 
-		padding: 20px 5px;
-	}
-	.guida{
-		width:100%;
-		max-width: 350px;
-	}
-	.contenutoprefazione{
-		width: 100%;
-		height: auto;
-	}
+	.contenutoguida{width: 100%; padding: 20px 5px;}
+	.guida{width:100%;max-width: 350px;}
+	.contenutoprefazione{width: 100%;height: auto;}
 	/* Carrello */
-	.bottoneaggcarrello button{
-		font-size: 13px;
-		margin-left: 0em;
-	}
+	.bottoneaggcarrello button{font-size: 13px;margin-left: 0em;}
 }
 @media only screen and (max-width: 750px) {
 	/* Style principale */
