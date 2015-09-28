@@ -6,7 +6,7 @@ body{
 	background-color: #F4F2ED;
 }
 a img{border:0px;}
-a {text-decoration: none;}
+a {text-decoration: none; display:block;}
 .generale{
 	width:99%;
 	height:auto;
@@ -92,14 +92,13 @@ a.download:hover{
 	height: 50px;
 	float: left;
 }
-.bottoneattivo div{
-	padding-top: 10px;
-}
 .bottoneattivo a{
+	height:40px;
 	color: #fff;
 	font-family: 'Open Sans';
 	font-weight: bold;
 	text-decoration: none;
+	padding-top: 10px;
 }
 .bottone{
 	background: #000 url('http://www.softwarearredamento.com/immagini/bottone.jpg') no-repeat;
@@ -107,14 +106,13 @@ a.download:hover{
 	height: 50px;
 	float: left;
 }
-.bottone div{
-	padding-top: 10px;
-}
 .bottone a{
+	height:40px;
 	color: #000;
 	font-family: 'Open Sans';
 	font-weight: bold;
 	text-decoration: none;
+	padding-top: 10px;
 }
 .bottone a:hover{
 	color: #fff;
@@ -332,6 +330,7 @@ a.download:hover{
 	float: left;
 }
 .copyright a{
+	display:inline;
 	font-size: 14px;
 	font-family: 'Open Sans';
 	color: #666;
@@ -349,6 +348,9 @@ a.download:hover{
 	font-size: 12px;
 	font-family: 'Open Sans';
 	/*border: 1px solid #ff0000;*/
+}
+.piva .partitaiva{
+	margin-top:10px;
 }
 .piva a{
 	font-size: 12px;
@@ -415,6 +417,9 @@ a.download:hover{
 	font-family: 'Open Sans';
 	font-size: 13px;
 }
+.storiacliente p{
+	margin:0px 0px 20px 0px;
+}
 .box1{
 	/*border: 1px solid #ff0000;*/ 
 	background-color: #E4E6E7;
@@ -428,8 +433,20 @@ a.download:hover{
 	font-family: 'Open Sans';
 	font-size: 24px;
 }
+.box1 p{
+	margin:3px  0px;
+}
+.box1 .txtund {
+	font-weight:bold;
+}
 .box1-nascosto{
 	display:none;
+}
+.box1-nascosto p{
+	margin:3px 0px;
+}
+.box1-nascosto .txtund {
+	font-weight:bold;
 }
 .boxs{
 	float: left;
@@ -490,6 +507,12 @@ a.download:hover{
 	font-family: 'Open Sans';
 	font-weight: bold;
 	/*border: 1px solid #ff0000;*/
+}
+.domandapuntiforza span{
+	text-decoration:underline;
+}
+.domandapuntiforza p{
+	margin:5px 0px;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.domandapuntiforza{

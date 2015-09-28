@@ -12,26 +12,21 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css">
 		<link rel="stylesheet" href="css/gallery.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script type="text/javascript" src="js/prototype.js"></script>
-		<script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
-		<script type="text/javascript" src="js/frog.js"></script>
-		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "analitycs.php"; ?>
 	</head>
 	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?>>
+		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
 					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
-					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html" class="bottone"><div>Acquista</div></a></div>
-					<div class="bottoneattivo"><a href="http://www.softwarearredamento.com/galleria.html" class="bottoneattivo"><div>Galleria</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/blog/" class="bottone"><div>Blog</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
-					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></div></div>
+					<div class="bottoneattivo"><div class="bottoneattivo"><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/blog/">Blog</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
 				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
@@ -93,6 +88,14 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/prototype.js" type="text/javascript"></script>
+		<script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+		<noscript>
+			<div style="margin:0px auto;"><h3>Per visualzzare correttamente il contenuto della pagina occorre avere JavaScript abilitato.</h3></div>
+		</noscript>
+		<script type="text/javascript" src="js/frog.js"></script>
+		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
+		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

@@ -13,21 +13,21 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
 		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "analitycs.php"; ?>
 	</head>
 	<body>
+		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
 					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
-					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html" class="bottone"><div>Acquista</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html" class="bottone"><div>Galleria</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/blog/" class="bottone"><div>Blog</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
-					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/blog/">Blog</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
 				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
@@ -42,10 +42,10 @@
 				<div class="cd-main-content">
 				<div class="contenuto">
 					<div class="contenutonostriclienti">
-						<h1>I Nostri Clienti</h2>
+						<h1>I Nostri Clienti</h1>
 						<hr>
 						<div class="divstoria">
-							<div class="imgsaracino"><img src="immagini/poti.png"></div>	
+							<div class="imgsaracino"><img src="immagini/poti.png" alt=""></div>	
 							<div class="storiasaracino">
 								<h2>Pot&igrave; Arredamenti</h2> viene fondata nel 1955 un'azienda residente a Novoli (Le) fondata da Giuseppe Pot&igrave; diventata un importante punto di riferimento del settore nel Salento.
 								L'ingresso nell'attivit&agrave; dei figli, gli attuali titolari dr. Pierluigi interior designer ed Anna arredatrice,  rimoderna molti aspetti della gestione come la formazione di uno staff addetto allo studio e alla progettazione d'interni, la realizzazione di arredi su misura, e l'ampliamento della sede inagurata nel gennaio del 1992.
@@ -54,7 +54,7 @@
 							</div>
 						</div>	
 						<div class="titolodomande">
-							<div class="immaginedomande"><img src="immagini/puntointerrogativo.jpg"></div>
+							<div class="immaginedomande"><img src="immagini/puntointerrogativo.jpg" alt=""></div>
 							<div class="descdomande">Alcune domande alla Pot&igrave; Arredamenti:</div>	
 						</div>	
 
@@ -123,7 +123,7 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

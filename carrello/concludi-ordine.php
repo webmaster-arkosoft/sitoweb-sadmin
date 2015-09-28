@@ -149,7 +149,7 @@
 <?php 
 	if(strlen($errore)>0 and strlen($_POST['email'])==0){ ?>
 		<div class="msgerrore">
-			Attenzione alcuni campi sono vuoti o inseriti non correttamente: <br /><?php print substr($errore,0,-1); ?>
+			Attenzione alcuni campi sono vuoti o inseriti non correttamente: <br><?php print substr($errore,0,-1); ?>
 		</div>
 		<div class="bottonetornaindietro">
 			<a class="bottonetornaindietro" href="<? print $secondapagina; ?>">&nbsp;</a>
@@ -219,22 +219,22 @@
 				
 <?php			//PAGAMENTO CON BONIFICO
 				if(isset($_POST['tipopagamento']) and $_POST['tipopagamento']=="2"){
-?>					Le abbiamo inviato un e-mail con il riepilogo del suo acquisto!<br /><br />
+?>					Le abbiamo inviato un e-mail con il riepilogo del suo acquisto!<br><br>
 					Di seguito sono riportati i dati dove effettuare il bonifico pari a <span>&euro; <?php if(strlen($totale)>0){ print decimali($totale+$spese); }else{ print "0.00"; } ?></span> Iva Inclusa.
 					<div class="imgdatibonifico">
-						<img src="/carrello/immagini/bonifico-bancario.jpg">
+						<img src="/carrello/immagini/bonifico-bancario.jpg" alt="">
 					</div>
 					<div class="datibonifico">
-						<strong>Dati di Bonifico:</strong><br />
-						INTESTAZIONE: Arkosoft di Basile Stefano & C.<br />
-						IBAN: IT79 D052 6279 260C C032 6042 007<br />
+						<strong>Dati di Bonifico:</strong><br>
+						INTESTAZIONE: Arkosoft di Basile Stefano & C.<br>
+						IBAN: IT79 D052 6279 260C C032 6042 007<br>
 						BANCA: Banca Popolare Pugliese						
 					</div>
 <?php			}	
 				
 				//PAGAMENTO CON PAYPAL
 				if(isset($_POST['tipopagamento']) and $_POST['tipopagamento']=="1"){
-?>					Il totale &egrave; pari <span>&euro; <?php if(strlen($totale)>0){ print decimali($totale+$spese); }else{ print "0,00"; } ?></span> Iva Inclusa.<br /><br /> 
+?>					Il totale &egrave; pari <span>&euro; <?php if(strlen($totale)>0){ print decimali($totale+$spese); }else{ print "0,00"; } ?></span> Iva Inclusa.<br><br> 
 					Clicca sul bottone <strong>Paga adesso</strong> per completare il vostro ordine tramite Paypal. <p>&nbsp;</p>
 					<form name="pay" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 						<input type="hidden" name="cmd" value="_cart">
@@ -256,13 +256,13 @@
 <?php			}
 ?>			</div>	
 			<div class="informazioni">
-				<img src="/carrello/immagini/contattaci.jpg"><br /><br />
-				<span class="ditta">ARKOSOFT</span> <span class="snc">SNC</span><br /><br />
-				via castello, 54<br />
-				72026 San Pancrazio Sal.no(Br)<br />
-				Tel: 0831.1815236<br />
-				Tel/Fax: 0831.1815238<br />
-				E-mail: info@arkosoft.it<br />
+				<img src="/carrello/immagini/contattaci.jpg" alt=""><br><br>
+				<span class="ditta">ARKOSOFT</span> <span class="snc">SNC</span><br><br>
+				via castello, 54<br>
+				72026 San Pancrazio Sal.no(Br)<br>
+				Tel: 0831.1815236<br>
+				Tel/Fax: 0831.1815238<br>
+				E-mail: info@arkosoft.it<br>
 			</div>
 		</div>	
 <?php	
@@ -302,6 +302,3 @@
 <?php	}	
 	}
 ?>
-
-
-			

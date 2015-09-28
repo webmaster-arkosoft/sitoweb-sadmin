@@ -1,3 +1,4 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <?php
 	session_start();
 ?>	
@@ -15,21 +16,21 @@
 		<link rel="stylesheet" href="css/carrello.css">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
 		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "analitycs.php"; ?>
 	</head>
 	<body>
+		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
 					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
-					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
-					<div class="bottoneattivo"><a href="http://www.softwarearredamento.com/acquista.html" class="bottoneattivo"><div>Acquista</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html" class="bottone"><div>Galleria</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/blog/" class="bottone"><div>Blog</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
-					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
+					<div class="bottoneattivo"><div class="bottoneattivo"><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/blog/">Blog</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
 				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
@@ -65,7 +66,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img id="img1" src="/immagini/logo-s-admin.jpg">
+											<img src="/immagini/logo-s-admin.jpg" alt="">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Pannello <span>S-Admin</span></div>
@@ -91,7 +92,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img id="img1" src="/immagini/pacchetto-s-admin.jpg">
+											<img src="/immagini/pacchetto-s-admin.jpg" alt="">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Pacchetto Completo <span>S-Admin</span></div>
@@ -118,7 +119,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img id="img1" src="/immagini/tema-responsive.jpg">
+											<img src="/immagini/tema-responsive.jpg" alt="">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Tema <span>Responsive (Smartphone e Tablet)</span></div>
@@ -142,7 +143,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img id="img1" src="/immagini/blog-s-admin.jpg">
+											<img src="/immagini/blog-s-admin.jpg" alt="">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Blog <span>di arredamento</span></div>
@@ -166,7 +167,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img id="img1" src="/immagini/social-s-admin.jpg">
+											<img src="/immagini/social-s-admin.jpg" alt="">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Iscrizione ai <span>Social Network</span></div>
@@ -204,7 +205,7 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

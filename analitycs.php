@@ -11,5 +11,5 @@
     g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="http://statistiche.arkosoft.it/piwik.php?idsite=17" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="http://statistiche.arkosoft.it/piwik.php?idsite=17" style="border:0;" alt=""></p></noscript>
 <!-- End Piwik Code -->

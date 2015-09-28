@@ -1,3 +1,4 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
 		<title>Guida al completo uso di S-Admin</title>
@@ -7,21 +8,21 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="../css/menu_responsive.css" media="screen">
 		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "../analitycs.php"; ?>
 	</head>
 	<body>
+		<?php include "../analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
 					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="../immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
-					<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html" class="bottone"><div>Acquista</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html" class="bottone"><div>Galleria</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/blog/" class="bottone"><div>Blog</div></a></div>
-					<div class="bottoneattivo"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottoneattivo"><div>Guida</div></a></div>
-					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/acquista.html">Acquista</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/blog/">Blog</a></div></div>
+					<div class="bottoneattivo"><div class="bottoneattivo"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
 				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/sfondologo.jpg" alt=""></a></div>
 				<div class="generale-corrente">
@@ -35,7 +36,7 @@
 			</div>
 			<div class="cd-main-content">
 				<div class="contenutoguida">
-					Guida al completo uso di <b>S-Admin</b> l'applicativo ideale per la gestione del Vostro <b>portale di Arredamento</b>. Con questa <b>guida</b> vengono illustrate dettagliatamente tutte le funzionalit&agrave; dell'applicativo.<br /><br />
+					Guida al completo uso di <b>S-Admin</b> l'applicativo ideale per la gestione del Vostro <b>portale di Arredamento</b>. Con questa <b>guida</b> vengono illustrate dettagliatamente tutte le funzionalit&agrave; dell'applicativo.<br><br>
 					<div class="guida">
 						<div class="indiceguida" id="indice">Indice</div>
 						<div class="vociguida"><a href="index.html#contenutoprefazione" title="Prefazione"> Prefazione</a></div>
@@ -78,16 +79,16 @@
 						<div class="vociguida"><a href="opzioni.html#8" title="Opzioni">8. Le Opzioni</a></div>
 						<div class="vociguida"><a href="bachecautente.html#9" title="Accesso come utente">9. Accesso come utente</a></div>
 						<div class="vociguida1"><a href="bachecautente.html#9.1" title="Bacheca dell'Utente">9.1 Bacheca dell'Utente</a></div>
-						<div class="vociguida1"><a href="bachecautente.html#9.2" title="Modifica il profilo dell'Utente">9.2 Modifica il profilo dell'Utente</a></div>		</div>
+						<div class="vociguida1"><a href="bachecautente.html#9.2" title="Modifica il profilo dell'Utente">9.2 Modifica il profilo dell'Utente</a></div></div>
 				
 					<h2 id="contenutoprefazione">Prefazione</h2><hr>
 					<div class="contenutoprefazione">
-						<b>Arkosoft</b> &egrave; lieta di presentare <b>S-ADMIN</b>, la soluzione per la gestione del Vostro sito di Arredamento. <br /><br />
-						Con <b>S-ADMIN</b> potrete gestire ogni singolo aspetto del Vostro sito, dall'inserimento dei prodotti, all'invio delle Vostre newsletter informative, alla gestione dei preventivi per cliente. <br />
-						Durante il caricamento di un nuovo prodotto avrete la possibilit&agrave; di inserirlo come un <b><i>prodotto classico</b></i>, quindi senza alcun prezzo indicato, o come <b><i>offerta</b></i> il cui prezzo sar&agrave; visualizzato nella <b><i>vetrina delle offerte</i></b>.<br /><br />
-						Il potenziale acquirente registrandosi al sito potr&agrave; richiedere un <b><i>preventivo</b></i> di ogni prodotto o acquistare mediante il <b><i>carrello</b></i>, dalla vetrina delle offerte.<br /><br />
-						A questo proposito gli <b><i>utenti</b></i> registrati al sito saranno gestibili a 360 gradi, modificando ogni informazione del loro profilo, controllarne lo stato o eliminarlo completamente.<br /><br />
-						In questa guida, vi spiegheremo come muovervi nelle varie sezioni, spiegheremo ogni voce dell'interfaccia e le funzioni utilizzabili.<br /><br /><br /><br />
+						<b>Arkosoft</b> &egrave; lieta di presentare <b>S-ADMIN</b>, la soluzione per la gestione del Vostro sito di Arredamento. <br><br>
+						Con <b>S-ADMIN</b> potrete gestire ogni singolo aspetto del Vostro sito, dall'inserimento dei prodotti, all'invio delle Vostre newsletter informative, alla gestione dei preventivi per cliente. <br>
+						Durante il caricamento di un nuovo prodotto avrete la possibilit&agrave; di inserirlo come un <b><i>prodotto classico</i></b>, quindi senza alcun prezzo indicato, o come <b><i>offerta</i></b> il cui prezzo sar&agrave; visualizzato nella <b><i>vetrina delle offerte</i></b>.<br><br>
+						Il potenziale acquirente registrandosi al sito potr&agrave; richiedere un <b><i>preventivo</i></b> di ogni prodotto o acquistare mediante il <b><i>carrello</i></b>, dalla vetrina delle offerte.<br><br>
+						A questo proposito gli <b><i>utenti</i></b> registrati al sito saranno gestibili a 360 gradi, modificando ogni informazione del loro profilo, controllarne lo stato o eliminarlo completamente.<br><br>
+						In questa guida, vi spiegheremo come muovervi nelle varie sezioni, spiegheremo ogni voce dell'interfaccia e le funzioni utilizzabili.<br><br><br><br>
 					</div>
 					<div class="torna"><a href="#indice">[Torna su]</a></div>
 				</div>	
@@ -104,7 +105,7 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="../js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="../js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

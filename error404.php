@@ -13,9 +13,9 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
 		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "analitycs.php"; ?>
 	</head>
 	<body>
+		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
@@ -23,18 +23,18 @@
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<?php if($_GET['prev']=="1"){ ?>
-						<div class="bottone"><a href="http://www.softwarearredamento.com" class="bottone"><div>Home</div></a></div>
-						<div class="bottoneattivo" Onclick="javascript: apripreventivo();"><a href="#" class="bottoneattivo"><div>Preventivo</div></a></div>
+						<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
+						<div class="bottoneattivo" Onclick="javascript: apripreventivo();"><div class="bottoneattivo"><a href="#">Preventivo</a></div></div>
 					<?php }else{ ?>
-						<div id="csshome" class="bottoneattivo"><a id="csshome1" href="http://www.softwarearredamento.com" class="bottoneattivo"><div>Home</div></a></div>
-						<div id="cssprev" class="bottone" Onclick="javascript: sfondobottone(); apripreventivo();"><a href="#" id="cssprev1" class="bottone"><div>Preventivo</div></a></div>
+						<div id="csshome" class="bottoneattivo"><div class="bottoneattivo"><a id="csshome1" href="http://www.softwarearredamento.com">Home</a></div></div>
+						<div id="cssprev" class="bottone" Onclick="javascript: sfondobottone(); apripreventivo();"><div class="bottone"><a href="#" id="cssprev1">Preventivo</a></div></div>
 					<?php } ?>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html" class="bottone"><div>Galleria</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/blog/" class="bottone"><div>Blog</div></a></div>
-					<div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html" class="bottone"><div>Guida</div></a></div>
-					<div class="bottone"><a href="http://ticket.arkosoft.it" class="bottone"><div>Supporto</div></a></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/galleria.html">Galleria</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/blog/">Blog</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
+					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
-				<div class="logo">&nbsp;</div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt="Logo S-admin" width="225" height="50"></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Error 404</span>
@@ -48,11 +48,11 @@
 				<div class="splash">
 					<div class="testo">
 						<div class="motto">
-							<a href="http://www.softwarearredamento.com" class="titlesadmin">S-Admin - <h1>Software Arredamento</h1></a>
-							<h2><a href="http://www.softwarearredamento.com">Realizza con Stile il tuo sito<br /> di Arredamento</a></h2>
+							<h1><a href="http://www.softwarearredamento.com" class="titlesadmin">S-Admin - Software Arredamento</a></h1>
+							<h2><a href="http://www.softwarearredamento.com">Realizza con Stile il tuo sito di Arredamento</a></h2>
 							<p class="introduzione">Una finestra su internet per i tuoi prodotti.</p>
 							<div class="download"><a href="http://www.softwarearredamento.com/intermedia.php" onClick="javascript:_paq.push(['trackGoal','1']);" class="download">&nbsp;</a></div>
-						</div>	
+						</div>
 					</div>
 				</div>
 				<div class="contenuto404">
@@ -61,10 +61,10 @@
 						<hr>	
 						<div class="storiasaracino">
 						La pagina da te richiesta su S-Admin non pu&ograve; essere trovata, probabilmente hai seguito un link corrotto. 
-						<br /><br />
-							Possibili Cause:<br /><br />
-							<a href="index.html" title="Pagina Inesistente">- Pagina Inesistente</a><br />
-							<a href="index.html" title="Pagina Spostata">- Pagina Spostata</a><br />
+						<br><br>
+						Possibili Cause:<br><br>
+						<a href="index.html" title="Pagina Inesistente">- Pagina Inesistente</a><br>
+						<a href="index.html" title="Pagina Spostata">- Pagina Spostata</a><br>
 						</div>
 					</div>
 				</div>	
@@ -81,7 +81,7 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>
