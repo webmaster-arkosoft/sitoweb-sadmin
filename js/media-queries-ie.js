@@ -46,4 +46,3 @@ var _55;var _56=function(){var vpw=cssHelper.getViewportWidth();var vph=cssHelpe
 setTimeout(function(){_57.style.width="";_57.style.marginLeft="";},0);cssHelper.removeListener("cssMediaQueriesTested",arguments.callee);});_3c();_50();}else{_57.style.marginLeft="";}
 _52();};}());try{document.execCommand("BackgroundImageCache",false,true);}
 catch(e){}
-function myFunction(){document.getElementById("cd-main-content").style.zIndex="1";document.getElementById("header").style.zIndex="2";document.getElementById("cd-lateral-nav").style.zIndex="3";}
