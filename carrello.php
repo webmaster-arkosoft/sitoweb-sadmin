@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <?php 
 	session_start();
 
@@ -12,8 +11,6 @@
 <html>
 	<head>
 		<title>Software Arredamento I nostri prezzi</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Pannello di controllo di Software Arredamento">
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
@@ -22,10 +19,9 @@
 		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/carrello.css">
 		<link rel="stylesheet" href="http://www.softwarearredamento.com/carrello/css/carrello.css">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
-		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
+		<?php include "analitycs.php"; ?>
 	</head>
 	<body>
-		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
@@ -68,11 +64,11 @@
 							<p class="normal">al sito <a href="http://ticket.arkosoft.it/">http://ticket.arkosoft.it</a></p>
 							<div class="ticket">
 								<span>
-									<img src="http://www.softwarearredamento.com/immagini/telverde.jpg" alt="icona telefono" class="tel" width="50" height="50">
+									<img src="immagini/telverde.jpg" alt="icona telefono" class="tel">
 									0831-1815236
 								</span>
 								<a href="http://ticket.arkosoft.it">
-									<img src="http://www.softwarearredamento.com/immagini/ticket.jpg" alt="ticket" class="tick" width="50" height="50">
+									<img src="immagini/ticket.jpg" alt="ticket" class="tick">
 								</a>
 							</div>
 						</div>
