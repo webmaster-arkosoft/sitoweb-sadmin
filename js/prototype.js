@@ -1404,7 +1404,8 @@ Element.Methods = {
         } else {
           if(value < 0.00001) value = 0;
           if(/MSIE/.test(navigator.userAgent) && !window.opera)
-            element.style.filter = element.getStyle('filter').replace(/alpha\([^\)]*\)/gi,'') + 'alpha(opacity='+value*100+')';
+            element.style.filter = element.getStyle('filter').replace(/alpha\([^\)]*\)/gi,'') +
+				'alpha(opacity='+value*100+')';
         }
       } else if(['float','cssFloat'].include(name)) name = (typeof element.style.styleFloat != 'undefined') ? 'styleFloat' : 'cssFloat';
       element.style[name.camelize()] = value;
