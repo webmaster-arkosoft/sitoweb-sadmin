@@ -9,17 +9,17 @@
 		<meta name="keywords" content="software arredamento, software arredamento interni, software per arredare casa, software per arredare, software arredare casa, software arredo casa">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
-		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
+		
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
+		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 	</head>
 	<body>
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottoneattivo"><div class="bottoneattivo"><a href="http://www.softwarearredamento.com">Home</a></div></div>
@@ -29,7 +29,7 @@
 					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
 					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
-				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt="Logo S-admin" width="225" height="50"></a></div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/sfondologo.jpg" alt="Logo S-admin" width="225" height="50"></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Home</span>
@@ -87,7 +87,7 @@
 					</div>
 					<div class="boxd">
 						<div class="puntiforza">
-							<div class="iconapuntiforza"><img src="immagini/icona_puntof.jpg" alt="" width="58" height="56"></div>
+							<div class="iconapuntiforza"><img src="http://www.softwarearredamento.com/immagini/icona_puntof.jpg" alt="" width="58" height="56"></div>
 							<div class="domandapuntiforza">Che differenza c'&egrave; tra un <span>Sito Normale</span> e S-Admin ?</div>
 						</div>
 						<div class="rispostapuntiforza">
@@ -96,7 +96,7 @@
 							<p>Il modulo per l'inserimento &egrave; stato ideato su misura per i negozi di arredamento e i mobilifici, quindi consente di inserire oltre al nome del mobile e alla sua descrizione le sue caratteristiche quali l'altezza, la lunghezza, la profondit&agrave;, la tipologia di legno utilizzata per fabbricare il mobile, il suo colore, l'anno di creazione, la laccatura, ecc.</p>
 							<p>Per apprezzare al meglio le caratteristiche di S-Admin prova subito a caricare un prodotto.</p>
 							<div class="linkpuntiforza">
-								<div class="linkpuntiforza1"><img src="immagini/inserisci.gif" alt="" width="17" height="19"></div>
+								<div class="linkpuntiforza1"><img src="http://www.softwarearredamento.com/immagini/inserisci.gif" alt="" width="17" height="19"></div>
 								<div class="linkpuntiforza2"><a href="#" Onclick="javascript: oscura(); caricapagina();">Inserisci un prodotto</a></div>	
 							</div>
 						</div>
@@ -110,10 +110,10 @@
 					</div>
 					<div class="box">
 						<div class="descrizionecliente">
-							<div class="immaginecliente"><img src="immagini/saracino.png" alt="" width="99" height="130"></div>
+							<div class="immaginecliente"><img src="http://www.softwarearredamento.com/immagini/saracino.png" alt="" width="99" height="130"></div>
 							<div class="storiacliente">
 								<p>La <b>Saracino Arreda</b> &egrave; un'azienda residente ad Avetrana (TA) che opera nel settore dell'Arredamento. Nasce nel 1955, un'azienda professionale e ricca di tradizioni.</p>
-								<a href="schedasaracino.html"><img src="immagini/continua.jpg" alt="" width="25" height="15"> Continua a leggere</a>
+								<a href="schedasaracino.html"><img src="http://www.softwarearredamento.com/immagini/continua.jpg" alt="" width="25" height="15"> Continua a leggere</a>
 							</div>
 						</div>
 					</div>
@@ -124,10 +124,10 @@
 					</div>
 					<div class="box">
 						<div class="descrizionecliente">
-							<div class="immaginecliente"><img src="immagini/poti.png" alt="" width="107" height="101"></div>
+							<div class="immaginecliente"><img src="http://www.softwarearredamento.com/immagini/poti.png" alt="" width="107" height="101"></div>
 							<div class="storiacliente">
 								<p><b>Pot&igrave; Arredamenti</b> viene fondata nel 1955 un'azienda residente a Novoli (Le) fondata da Giuseppe Pot&igrave; diventata un importante punto di riferimento del settore nel Salento.</p>
-								<a href="schedapoti.html"><img src="immagini/continua.jpg" alt="" width="25" height="15"> Continua a leggere</a>
+								<a href="schedapoti.html"><img src="http://www.softwarearredamento.com/immagini/continua.jpg" alt="" width="25" height="15"> Continua a leggere</a>
 							</div>
 						</div>
 					</div>
@@ -147,6 +147,6 @@
 		</div>	
 		<div id="oscura" Onclick="javascript:chiudi();"></div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
-		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

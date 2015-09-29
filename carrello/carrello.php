@@ -44,7 +44,7 @@
 				</div>
 					<div class="dconsegna">
 						<div>
-							<img src="carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg" />
+							<img src="http://www.softwarearredamento.com/carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg">
 						</div>
 					</div>
 					<div class="dquantita">
@@ -134,7 +134,7 @@
 		//Se c'è almeno un prodotto nel carrello
 		if(count($_SESSION['carrello'])>0){
 ?>			<div class="coupon">
-				<div class="testocoupon"><img src="carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
+				<div class="testocoupon"><img src="http://www.softwarearredamento.com/carrello/immagini/regalo.jpg" alt="ID coupon"><div class="promozionecoupon">Attiva subito la tua <span class="promlabelcoupon">PROMOZIONE</span>: <span class="labelcoupon">(Inserisci il tuo ID-COUPON)</span></div></div>
 				<div class="inputcoupon"><input type="text" name="idcoupon" id="idcoupon" value="" onfocus="javascript: coupon(this);" onkeyup="javascript: coupon(this);"></div>
 				<div id="success" class="successoff">&nbsp;</div>
 			</div>

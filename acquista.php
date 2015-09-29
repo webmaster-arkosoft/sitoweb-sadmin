@@ -11,18 +11,17 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/carrello.css">
-		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css" media="screen">
-		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
+		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/style.css">
+		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/carrello.css">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
+		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 	</head>
 	<body>
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
@@ -32,7 +31,7 @@
 					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
 					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
-				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/sfondologo.jpg" alt="" width="225" height="50"></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Acquista</span>
@@ -66,7 +65,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img src="/immagini/logo-s-admin.jpg" alt="">
+											<img src="http://www.softwarearredamento.com//immagini/logo-s-admin.jpg" alt="" width="150" height="150">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Pannello <span>S-Admin</span></div>
@@ -92,7 +91,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img src="/immagini/pacchetto-s-admin.jpg" alt="">
+											<img src="http://www.softwarearredamento.com//immagini/pacchetto-s-admin.jpg" alt="" width="150" height="150">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Pacchetto Completo <span>S-Admin</span></div>
@@ -119,7 +118,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img src="/immagini/tema-responsive.jpg" alt="">
+											<img src="http://www.softwarearredamento.com//immagini/tema-responsive.jpg" alt="" width="150" height="144">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Tema <span>Responsive (Smartphone e Tablet)</span></div>
@@ -143,7 +142,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img src="/immagini/blog-s-admin.jpg" alt="">
+											<img src="http://www.softwarearredamento.com//immagini/blog-s-admin.jpg" alt="" width="150" height="150">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Blog <span>di arredamento</span></div>
@@ -167,7 +166,7 @@
 								<div class="boxprodotto">
 									<div class="boxdescrizione">
 										<div class="imgprodotto">
-											<img src="/immagini/social-s-admin.jpg" alt="">
+											<img src="http://www.softwarearredamento.com//immagini/social-s-admin.jpg" alt="" width="150" height="148">
 										</div>
 										<div class="descprodotto">
 											<div class="titoloprod">Iscrizione ai <span>Social Network</span></div>
@@ -206,6 +205,6 @@
 			</div>
 		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
-		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

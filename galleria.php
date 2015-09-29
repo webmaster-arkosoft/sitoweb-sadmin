@@ -8,17 +8,17 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/menu_responsive.css">
-		<link rel="stylesheet" href="css/gallery.css">
+		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/style.css">
+		<link rel="stylesheet" type="http://www.softwarearredamento.com/text/css" href="css/menu_responsive.css">
+		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/gallery.css">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 	</head>
 	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?>>
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
-					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
+					<a id="cd-logo" href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/textlogo.jpg" alt="Homepage" width="263" height="50"></a>
 				</div>
 				<div class="menu" id="cd-top-nav">
 					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com">Home</a></div></div>
@@ -28,7 +28,7 @@
 					<div class="bottone"><div class="bottone"><a href="http://www.softwarearredamento.com/guida/index.html">Guida</a></div></div>
 					<div class="bottone"><div class="bottone"><a href="http://ticket.arkosoft.it">Supporto</a></div></div>
 				</div>
-				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="immagini/sfondologo.jpg" alt=""></a></div>
+				<div class="logo"><a href="http://www.softwarearredamento.com"><img src="http://www.softwarearredamento.com/immagini/sfondologo.jpg" alt="" width="225" height="50"></a></div>
 				<div class="generale-corrente">
 					<div class="pag-corrente">
 						<span>Galleria</span>
@@ -47,31 +47,31 @@
 					</div>
 					<div id="FrogJS" class="frog">
 						<a href="galleria/bacheca.jpg" title="Bacheca Amministratore">
-							<img src="miniature/bacheca.jpg" alt="Bacheca Amministratore">
+							<img src="http://www.softwarearredamento.com/miniature/bacheca.jpg" alt="Bacheca Amministratore" width="200" height="156">
 						</a>
 						<a href="galleria/bacheca_utente.jpg" title="Bacheca Utente">
-							<img src="miniature/bacheca_utente.jpg" alt="Bacheca Utente">
+							<img src="http://www.softwarearredamento.com/miniature/bacheca_utente.jpg" alt="Bacheca Utente" width="200" height="165">
 						</a>
 						<a href="galleria/gestione_categorie.jpg" title="Gestione Categorie">
-							<img src="miniature/gestione_categorie.jpg" alt="Gestione Categorie">
+							<img src="http://www.softwarearredamento.com/miniature/gestione_categorie.jpg" alt="Gestione Categorie" width="200" height="147">
 						</a>
 						<a href="galleria/gestione_marca.jpg" title="Gestione Marca">
-							<img src="miniature/gestione_marca.jpg" alt="Gestione Marca">
+							<img src="http://www.softwarearredamento.com/miniature/gestione_marca.jpg" alt="Gestione Marca" width="200" height="163">
 						</a>
 						<a href="galleria/gestione_prodotti.jpg" title="Gestione Prodotti">
-							<img src="miniature/gestione_prodotti.jpg" alt="Gestione Prodotti">
+							<img src="miniature/gestione_prodotti.jpg" alt="Gestione Prodotti" width="200" height="163">
 						</a>
 						<a href="galleria/gestione_utente.jpg" title="Gestione Utente">
-							<img src="miniature/gestione_utente.jpg" alt="Gestione Utente">
+							<img src="http://www.softwarearredamento.com/miniature/gestione_utente.jpg" alt="Gestione Utente" width="200" height="187">
 						</a>
 						<a href="galleria/gestione_newsletter.jpg" title="Gestione Newsletter">
-							<img src="miniature/gestione_newsletter.jpg" alt="Gestione Newsletter">
+							<img src="http://www.softwarearredamento.com/miniature/gestione_newsletter.jpg" alt="Gestione Newsletter" width="200" height="149">
 						</a>
 						<a href="galleria/gestione_preventivo.jpg" title="Gestione Preventivo">
-							<img src="miniature/gestione_preventivo.jpg" alt="Gestione Preventivo">
+							<img src="miniature/gestione_preventivo.jpg" alt="Gestione Preventivo" width="200" height="206">
 						</a>
 						<a href="galleria/visualizza_preventivo.jpg" title="Gestione Preventivo">
-							<img src="miniature/visualizza_preventivo.jpg" alt="Gestione Preventivo">
+							<img src="http://www.softwarearredamento.com/miniature/visualizza_preventivo.jpg" alt="Gestione Preventivo" width="200" height="146">
 						</a>
 					</div>
 				</div>
@@ -89,13 +89,13 @@
 			</div>
 		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
-		<script src="js/prototype.js" type="text/javascript"></script>
-		<script src="js/scriptaculous.js?load=effects" type="text/javascript"></script>
+		<script src="http://www.softwarearredamento.com/js/prototype.js" type="text/javascript"></script>
+		<script src="http://www.softwarearredamento.com/js/scriptaculous.js?load=effects" type="text/javascript"></script>
 		<noscript>
 			<div style="margin:0px auto;"><h3>Per visualzzare correttamente il contenuto della pagina occorre avere JavaScript abilitato.</h3></div>
 		</noscript>
-		<script type="text/javascript" src="js/frog.js"></script>
-		<script src="js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<script src="js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/frog.js" type="text/javascript"></script>
+		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
+		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>
