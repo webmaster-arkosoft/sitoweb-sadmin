@@ -8,12 +8,11 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/style.css">
-		<link rel="stylesheet" type="http://www.softwarearredamento.com/text/css" href="css/menu_responsive.css">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/gallery.css">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/gallery.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 	</head>
-	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?>>
+	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?> onload="myFunction()">
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
@@ -38,7 +37,7 @@
 					<span class="cd-menu-icon"></span>
 				</a>
 			</div>
-			<div class="cd-main-content">
+			<div class="cd-main-content" id="cd-main-content">
 				<div class="boxmadregalleria">
 					<div class="descgalleria">
 						<h1>Software Arredamento</h1> - <h2>Il pannello di controllo</h2>
@@ -97,5 +96,6 @@
 		<script src="http://www.softwarearredamento.com/js/frog.js" type="text/javascript"></script>
 		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/funzioni.js" type="text/javascript"></script> <!-- z-index per menu laterale mobile -->
 	</body>
 </html>

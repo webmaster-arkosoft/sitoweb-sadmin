@@ -5,10 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
+		<script src="http://www.softwarearredamento.com/js/funzioni.js" type="text/javascript"></script> <!-- z-index per menu laterale mobile -->
 		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
-		<?php include "../analitycs.php"; ?>
 	</head>
-	<body>
+	<body onload="myFunction()">
+		<?php include "../analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
@@ -32,7 +33,7 @@
 					<span class="cd-menu-icon"></span>
 				</a>
 			</div>
-			<div class="cd-main-content">
+			<div class="cd-main-content" id="cd-main-content">
 				<div class="contenutoguida">
 					Guida al completo uso di <b>S-Admin</b> l'applicativo ideale per la gestione del Vostro <b>portale di Arredamento</b>. Con questa <b>guida</b> vengono illustrate dettagliatamente tutte le funzionalit&agrave; dell'applicativo.<br /><br />
 					<div class="guida">
@@ -106,7 +107,7 @@
 				</ul> <!-- cd-single-item-wrapper -->
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="http://www.softwarearredamento.com/js/main.js"></script> <!-- Resource jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 	</body>
 </html>

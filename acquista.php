@@ -11,12 +11,12 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/style.css">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/carrello.css">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/carrello.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 	</head>
-	<body>
+	<body onload="myFunction()">
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
@@ -41,7 +41,7 @@
 					<span class="cd-menu-icon"></span>
 				</a>
 			</div>
-			<div class="cd-main-content">
+			<div class="cd-main-content" id="cd-main-content">
 				<div class="boxmadregalleria">
 					<div class="desccarrello">
 						<h1>Seleziona i prodotti da inserire nel carrello</h1>
@@ -206,5 +206,6 @@
 		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
 		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/funzioni.js" type="text/javascript"></script> <!-- z-index per menu laterale mobile -->
 	</body>
 </html>

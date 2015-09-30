@@ -15,13 +15,13 @@
 		<meta name="keywords" content="pannello di controllo software arredamento, pannello software arredamento, software arredamento, software arredamento interni">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/style.css">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/css/carrello.css">
-		<link rel="stylesheet" href="http://www.softwarearredamento.com/carrello/css/carrello.css">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/carrello.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/carrello/css/carrello.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 		<?php include "analitycs.php"; ?>
 	</head>
-	<body>
+	<body onload="myFunction()">
 		<div class="generale">
 			<div class="header" id="header">
 				<div class="textlogo">
@@ -45,7 +45,7 @@
 					<span class="cd-menu-icon"></span>
 				</a>
 			</div>
-			<div class="cd-main-content">
+			<div class="cd-main-content" id="cd-main-content">
 				<div class="boxmadrecar">
 					<div class="desccarrello">
 						<h1>Modulo di acquisto</h1>
@@ -89,5 +89,6 @@
 		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
 		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
+		<script src="http://www.softwarearredamento.com/js/funzioni.js" type="text/javascript"></script> <!-- z-index per menu laterale mobile -->
 	</body>
 </html>

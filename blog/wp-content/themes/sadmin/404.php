@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- Contenuti -->
-	<div class="cd-main-content">
+	<div class="cd-main-content" id="cd-main-content">
 		<div id="main">
 			<div id="container">
 				<div id="colonna-sinistrasing">	
