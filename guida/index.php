@@ -79,7 +79,7 @@
 						<div class="vociguida"><a href="bachecautente.html#desc9" title="Accesso come utente">9. Accesso come utente</a></div>
 						<div class="vociguida1"><a href="bachecautente.html#desc9.1" title="Bacheca dell'Utente">9.1 Bacheca dell'Utente</a></div>
 						<div class="vociguida1"><a href="bachecautente.html#desc9.2" title="Modifica il profilo dell'Utente">9.2 Modifica il profilo dell'Utente</a></div>
-				
+					</div>
 					<h2 id="contenutoprefazione">Prefazione</h2><hr>
 					<div class="contenutoprefazione">
 						<b>Arkosoft</b> &egrave; lieta di presentare <b>S-ADMIN</b>, la soluzione per la gestione del Vostro sito di Arredamento. <br><br>
