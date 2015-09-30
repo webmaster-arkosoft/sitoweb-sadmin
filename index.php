@@ -9,7 +9,6 @@
 		<meta name="keywords" content="software arredamento, software arredamento interni, software per arredare casa, software per arredare, software arredare casa, software arredo casa">
 		<meta name="language" content="it">
 		<meta name="robots" content="index, follow">
-		
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
 		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
