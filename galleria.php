@@ -11,8 +11,9 @@
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/style.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/gallery.css" media="screen">
 		<link rel="stylesheet" type="text/css" href="http://www.softwarearredamento.com/css/menu_responsive.css" media="screen">
+		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 	</head>
-	<body <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?> onload="myFunction()">
+	<body onload="myFunction()" <? if(strstr($browser, 'MSIE')==true){ ?>Onload="javascript: initFrog();"<?}?>>
 		<?php include "analitycs.php"; ?>
 		<div class="generale">
 			<div class="header" id="header">
@@ -90,11 +91,10 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
 		<script src="http://www.softwarearredamento.com/js/prototype.js" type="text/javascript"></script>
 		<script src="http://www.softwarearredamento.com/js/scriptaculous.js?load=effects" type="text/javascript"></script>
+		<script src="http://www.softwarearredamento.com/js/frog.js" type="text/javascript"></script>
 		<noscript>
 			<div style="margin:0px auto;"><h3>Per visualzzare correttamente il contenuto della pagina occorre avere JavaScript abilitato.</h3></div>
 		</noscript>
-		<script src="http://www.softwarearredamento.com/js/frog.js" type="text/javascript"></script>
-		<script src="http://www.softwarearredamento.com/js/media-queries-ie.js" type="text/javascript"></script> <!-- script per abilitare media queries su ie -->
 		<script src="http://www.softwarearredamento.com/js/main.js" type="text/javascript"></script> <!-- Resource jQuery -->
 		<script src="http://www.softwarearredamento.com/js/funzioni.js" type="text/javascript"></script> <!-- z-index per menu laterale mobile -->
 	</body>
