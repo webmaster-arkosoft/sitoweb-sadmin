@@ -1,7 +1,7 @@
 	<div class="copyright">
 		<hr>
 		<div class="logocopyright">
-			<img src="/immagini/logocopyright.gif" alt="Software house puglia"><span class="arkocopyright">Copyright &copy; 2010 <a href="http://www.arkosoft.it" title="Software house puglia">Arkosoft</a>. All rights reserved.</span>
+			<img src="http://www.softwarearredamento.com/immagini/logocopyright.gif" alt="Software house puglia" width="60" height="18"><span class="arkocopyright">Copyright &copy; 2010 <a href="http://www.arkosoft.it" title="Software house puglia">Arkosoft</a>. All rights reserved.</span>
 		</div>
 		<div class="piva">
 			<b>ARKOSOFT - Software House</b><br>

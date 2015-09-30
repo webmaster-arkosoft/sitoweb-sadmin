@@ -264,7 +264,8 @@ a.download:hover{background-position:0 -77px;text-decoration: none;}
 /*PAGINA GUIDA*/
 .contenutoguida{width: 973px; padding: 10px;text-align: left;padding-top: 20px;font-family: 'Open Sans';text-align:justify;height: auto !important;min-height: 100%; height: 100%;background-color: #FFFFFF;}
 .boxguida{width: 100%;font-family: 'Open Sans';height: auto !important;min-height: 100%;height: 100%;}
-.boxguida center img{width:90%;height:auto;text-align:center;}
+.boxguida .center {width:100%;height:auto;margin:0px auto; text-align:center;}
+.boxguida .center img{width:90%;height:auto;}
 .torna{text-align: right;margin-bottom: 20px;}
 .torna a{font-size: 16px;color: #0000ff;text-decoration: none;}
 .torna a:hover{text-decoration: underline;}

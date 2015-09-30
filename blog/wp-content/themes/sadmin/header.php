@@ -20,8 +20,6 @@
 		bloginfo('name'); echo " - "; bloginfo('description');
 	}
 	?>">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<?php wp_head(); ?>
 	
 	<meta property="og:title" content="<?php global $page, $paged; wp_title( '&laquo;', true, 'right' ); bloginfo( 'name' ); if ( $paged >= 2 || $page >= 2 ) echo ' &raquo; ' . sprintf( __( 'Page %s' ), max( $paged, $page ) ); ?>" />
 	<?php if (is_single()OR is_page()) { ?>
