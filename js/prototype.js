@@ -1396,13 +1396,17 @@ Element.Methods = {
         if (value == 1) {
           value = (/Gecko/.test(navigator.userAgent) &&
             !/Konqueror|Safari|KHTML/.test(navigator.userAgent)) ? 0.999999 : 1.0;
+			element.style.filter = "alpha(opacity=100)";
           if(/MSIE/.test(navigator.userAgent) && !window.opera)
+			element.style.filter = "alpha(opacity=100)";
             element.style.filter = element.getStyle('filter').replace(/alpha\([^\)]*\)/gi,'');
         } else if(value === '') {
           if(/MSIE/.test(navigator.userAgent) && !window.opera)
+			element.style.filter = "alpha(opacity=100)";
             element.style.filter = element.getStyle('filter').replace(/alpha\([^\)]*\)/gi,'');
         } else {
           if(value < 0.00001) value = 0;
+		  element.style.filter = "alpha(opacity=100)";
           if(/MSIE/.test(navigator.userAgent) && !window.opera)
             element.style.filter = element.getStyle('filter').replace(/alpha\([^\)]*\)/gi,'') + 'alpha(opacity='+value*100+')';
         }
