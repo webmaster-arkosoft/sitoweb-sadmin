@@ -135,7 +135,7 @@ a {text-decoration: none; display:block;}
 .divsplash{position:absolute;left:50%;margin-left:-200px;margin-top: 20px;width: 405px;height: 510px;}
 .divsplash1{position:absolute;left:50%;margin-left:-200px;	margin-top: 20px;background: url('http://www.softwarearredamento.com/immagini/sfondodemo.jpg') no-repeat;width: 405px;height: 510px;}
 .divsplash2{position:absolute;left:50%;margin-left:-200px;margin-top: 20px;background: url('http://www.softwarearredamento.com/immagini/sfondodemo1.jpg') no-repeat;width: 405px;height: 510px;}
-./*nojs{background-color: #ccc;position: absolute;height: 70px;margin: -10px;width: 988px;padding: 20px;font-size: 20px;border: 1px solid #333;color: #ff0000;font-family: 'Open Sans';opacity: 0.9; filter:alpha(opacity=90); z-index:100;}*/
+/*.nojs{background-color: #ccc;position: absolute;height: 70px;margin: -10px;width: 988px;padding: 20px;font-size: 20px;border: 1px solid #333;color: #ff0000;font-family: 'Open Sans';opacity: 0.9; filter:alpha(opacity=90); z-index:100;}*/
 .download{float:left;width: 260px;height: 77px;background: url('http://www.softwarearredamento.com/immagini/download.jpg') no-repeat;margin-bottom:20px;}
 .download a{text-decoration: none;display:block;}
 a.download:hover{background-position:0 -77px;text-decoration: none;}

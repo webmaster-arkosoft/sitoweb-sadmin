@@ -150,3 +150,6 @@
 	.immaginecliente{width:100%;text-align:center;}
 	.storiacliente{width:100%;text-align:center;}
 }
+@media only screen and (max-width: 400px) {
+	.pag-corrente span{text-align:left; margin-left:5px; font-size:22px;}
+}
