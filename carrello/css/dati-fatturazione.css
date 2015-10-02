@@ -41,7 +41,7 @@
 }
 .boxsingolop{
 	width: 380px;
-	height: 84px;
+	height: 74px;
 	background-color: #E1E1E1;
 	margin-left: 10px;
 }
@@ -54,7 +54,7 @@
 
 .imgsoftware{
 	width: 80px;
-	height: 83px;
+	height: 74px;
 	float: left;
 	background-color: #FFFFFF;
 }
@@ -66,7 +66,7 @@
 }
 .titolosoftware{
 	width: 160px;
-	height: 83px;
+	height: 74px;
 	float: left;
 	background-color: #FFFFFF;
 	font-weight: bold;
@@ -74,7 +74,7 @@
 }
 .imgsoftwaresp{
 	width: 80px;
-	height: 83px;
+	height: 70px;
 	height: 73px\9;
 	height: 70px\0;
 	float: left;
@@ -82,7 +82,7 @@
 }
 .titolosoftwaresp{
 	width: 160px;
-	height: 83px;
+	height: 70px;
 	height: 73px\9;
 	height: 70px\0;
 	float: left;
@@ -95,13 +95,13 @@
 }
 .prezzosoftware{
 	width: 110px;
-	height: 74px;
+	height: 59px;
 	height: 75px\9;
 	height: 59px\0;
 	float: left;
 	padding-left: 12px;
 	text-align: center;	
-	padding-top: 15px;
+	padding-top: 5px;
 	border-bottom: 1px solid #CCCCCC;
 }
 .prezzosoftware1{
@@ -134,7 +134,7 @@
 }
 .prezzospese{
 	width: 110px;
-	height: 74px;
+	height: 51px;
 	height: 74px\9;
 	height: 51px\0;
 	float: left;
@@ -142,8 +142,6 @@
 	text-align: center;	
 	padding-top: 20px;
 	border-bottom: 1px solid #CCCCCC;
-	margin-left:10px;
-	margin-top:10px;
 }
 .prezzospese p{
 	margin:0px;
@@ -162,7 +160,7 @@
 
 /*Dati fattura*/
 .divdatifattura{
-	width: 575px;
+	width: 560px;
 	min-height: 710px;
 	height:auto !important;
 	border: 1px solid #CCCCCC;
@@ -196,7 +194,7 @@
 .citta{
 	width: 100px;
 	height: 30px;
-	margin-right: 15px;
+	margin-right: 10px;
 	border: 1px solid #B5B5B5;
 	font-weight: bold;
 }
@@ -212,7 +210,7 @@
 	float: left;
 }
 .campo2{
-	width: 168px;
+	width: 161px;
 	height: 30px;
 	float: left;
 }
@@ -273,6 +271,7 @@
 	height: 40px;
 	vertical-align: bottom;
 	float: left;
+	font-size: 14px;
 }
 .textareaacquista textarea{
 	background: #F5F5F5;
@@ -294,7 +293,7 @@
 	margin-bottom: 10px;
 }
 .barra-navigazione{
-	width: 988px;
+	width: 973px;
 	height: 50px;
 	border: 0px;
 	background:url("../immagini/barra-navigazione1.jpg") no-repeat center top;
@@ -326,7 +325,7 @@
 	text-decoration: underline;
 }
 .pulsanti{
-	width: 980px;
+	width: 970px;
 	height: 50px;
 	text-align: right;
 	margin-top: 20px;
@@ -343,15 +342,15 @@
 	background-position: 0 -37px;
 }
 .tornacar{
-	margin-left: 665px;
+	margin-left: 655px;
 }
 .divpagamento{
 	margin-left: 405px;
 	margin-bottom: 20px;
 }
 .tipopagamento{
-	width: 575px;
-	height: 75px;
+	width: 565px;
+	height: 65px;
 	border: 1px solid #CCCCCC;
 	padding-top: 10px;
 	background-color: #FFFFFF;
