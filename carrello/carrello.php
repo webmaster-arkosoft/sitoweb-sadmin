@@ -44,7 +44,7 @@
 				</div>
 					<div class="dconsegna">
 						<div>
-							<img src="http://www.softwarearredamento.com/carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg" />
+							<img src="carrello/immagini/<?php print $_SESSION['carrello'][$a][3]; ?>.jpg" />
 						</div>
 					</div>
 					<div class="dquantita">
