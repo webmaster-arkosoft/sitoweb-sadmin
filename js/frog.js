@@ -1,5 +1,5 @@
 //-------------------------------------------------------------
-//  FrogJS v.1.0
+//  FrogJS v.1.1
 //  Created by Eric Puidokas (www.puidokas.com)
 //
 //  Licensed under the Creative Commons Attribution 2.5 License
@@ -7,13 +7,12 @@
 //-------------------------------------------------------------
 
 // CONFIGURATION VARIABLES
-var thumbTop = '150px'; // distance you want you thumbnails to be from the top of their container
-var loadingAni = 'immagini/loading.gif'; // image displayed when preloading images
+var thumbTop = '60px'; // distance you want you thumbnails to be from the top of their container
+var loadingAni = 'images/loading.gif'; // image displayed when preloading images
 var scalePercent = '300'; // percent thumbnails expand when fading into main image
 
 // GLOBALS
 var imageArray = new Array;
-
 
 // Extensions to the Element class from prototype.js
 Object.extend(Element, {
@@ -126,21 +125,19 @@ Frog.prototype = {
 		//-----------------------------------------
 		
 		// Preloads first image and displays image along with next thumbnail
+		var myFrog = this; // IE can't use the global `myFrog` until it's been initialized
 		var imgPreloader = new Image();
 		imgPreloader.onload=function(){
 			myFrog.loadMainImage(0, imgPreloader.width);
 			myFrog.thumbIn(1, 'right');
 		}
 		imgPreloader.src = imageArray[0]['full'];
-		
 	},
 	
 	// loadImage()
 	// Loads main image and updates thumbnails accordingly.  Uses all other functions of the Frog class.
 	loadImage: function(imageNum, side, width){
-		
 		myFrog.loadMainImage(imageNum, width);
-
 		if(side=='right'){
 			myFrog.mainIn(imageNum, 'right');
 			myFrog.thumbIn(imageNum+1, 'right');
@@ -250,6 +247,5 @@ Frog.prototype = {
 }
 
 // It's time for this frog to hop
-function initFrog(){ myFrog = new Frog();}
-setTimeout("initFrog()", 400 );
-//Event.observe(window, 'load', initFrog, false);
+function initFrog(){ myFrog = new Frog(); }
+Event.observe(window, 'load', initFrog, false);
